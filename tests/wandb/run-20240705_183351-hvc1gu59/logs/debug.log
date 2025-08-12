@@ -1,0 +1,35 @@
+2024-07-05 18:33:51,287 INFO    Thread-18 (_run_job):17940 [wandb_setup.py:_flush():76] Current SDK version is 0.17.4
+2024-07-05 18:33:51,287 INFO    Thread-18 (_run_job):17940 [wandb_setup.py:_flush():76] Configure stats pid to 17940
+2024-07-05 18:33:51,288 INFO    Thread-18 (_run_job):17940 [wandb_setup.py:_flush():76] Loading settings from C:\Users\ge84gac\.config\wandb\settings
+2024-07-05 18:33:51,288 INFO    Thread-18 (_run_job):17940 [wandb_setup.py:_flush():76] Loading settings from C:\Users\ge84gac\Gate_qbm\tests\wandb\settings
+2024-07-05 18:33:51,288 INFO    Thread-18 (_run_job):17940 [wandb_setup.py:_flush():76] Loading settings from environment variables: {'entity': 'shivang_arora', 'project': 'Gate-qbm-anomaly-detection', 'root_dir': 'C:\\Users\\ge84gac\\Gate_qbm\\tests', 'run_id': 'hvc1gu59', 'sweep_param_path': 'C:\\Users\\ge84gac\\Gate_qbm\\tests\\wandb\\sweep-gn5oqqsk\\config-hvc1gu59.yaml', 'sweep_id': 'gn5oqqsk'}
+2024-07-05 18:33:51,289 INFO    Thread-18 (_run_job):17940 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2024-07-05 18:33:51,289 INFO    Thread-18 (_run_job):17940 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2024-07-05 18:33:51,289 INFO    Thread-18 (_run_job):17940 [wandb_setup.py:_flush():76] Applying login settings: {}
+2024-07-05 18:33:51,290 INFO    Thread-18 (_run_job):17940 [wandb_init.py:_log_setup():529] Logging user logs to C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240705_183351-hvc1gu59\logs\debug.log
+2024-07-05 18:33:51,290 INFO    Thread-18 (_run_job):17940 [wandb_init.py:_log_setup():530] Logging internal logs to C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240705_183351-hvc1gu59\logs\debug-internal.log
+2024-07-05 18:33:51,290 INFO    Thread-18 (_run_job):17940 [wandb_init.py:_jupyter_setup():475] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x00000202B2C8F3D0>
+2024-07-05 18:33:51,290 INFO    Thread-18 (_run_job):17940 [wandb_init.py:init():569] calling init triggers
+2024-07-05 18:33:51,290 INFO    Thread-18 (_run_job):17940 [wandb_init.py:init():576] wandb.init called with sweep_config: {'batchsize': 32, 'epochs': 1, 'hnodes': 1, 'learning_rate': 0.06877502729730868}
+config: {}
+2024-07-05 18:33:51,291 INFO    Thread-18 (_run_job):17940 [wandb_init.py:init():619] starting backend
+2024-07-05 18:33:51,291 INFO    Thread-18 (_run_job):17940 [wandb_init.py:init():623] setting up manager
+2024-07-05 18:33:51,305 INFO    Thread-18 (_run_job):17940 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=spawn, using: spawn
+2024-07-05 18:33:51,306 INFO    Thread-18 (_run_job):17940 [wandb_init.py:init():631] backend started and connected
+2024-07-05 18:33:51,348 INFO    Thread-18 (_run_job):17940 [wandb_run.py:_config_callback():1382] config_cb None None {'batchsize': 32, 'epochs': 1, 'hnodes': 1, 'learning_rate': 0.06877502729730868}
+2024-07-05 18:33:51,350 INFO    Thread-18 (_run_job):17940 [wandb_run.py:_label_probe_notebook():1334] probe notebook
+2024-07-05 18:33:51,350 INFO    Thread-18 (_run_job):17940 [wandb_run.py:_label_probe_notebook():1344] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2024-07-05 18:33:51,350 INFO    Thread-18 (_run_job):17940 [wandb_init.py:init():720] updated telemetry
+2024-07-05 18:33:51,542 INFO    Thread-18 (_run_job):17940 [wandb_init.py:init():753] communicating run to backend with 90.0 second timeout
+2024-07-05 18:33:52,043 INFO    Thread-18 (_run_job):17940 [wandb_run.py:_on_init():2402] communicating current version
+2024-07-05 18:33:52,173 INFO    Thread-18 (_run_job):17940 [wandb_run.py:_on_init():2411] got version response 
+2024-07-05 18:33:52,173 INFO    Thread-18 (_run_job):17940 [wandb_init.py:init():804] starting run threads in backend
+2024-07-05 18:34:04,491 INFO    Thread-18 (_run_job):17940 [wandb_run.py:_console_start():2380] atexit reg
+2024-07-05 18:34:04,492 INFO    Thread-18 (_run_job):17940 [wandb_run.py:_redirect():2235] redirect: wrap_raw
+2024-07-05 18:34:04,492 INFO    Thread-18 (_run_job):17940 [wandb_run.py:_redirect():2300] Wrapping output streams.
+2024-07-05 18:34:04,493 INFO    Thread-18 (_run_job):17940 [wandb_run.py:_redirect():2325] Redirects installed.
+2024-07-05 18:34:04,494 INFO    Thread-18 (_run_job):17940 [wandb_init.py:init():847] run started, returning control to user process
+2024-07-05 18:34:04,495 INFO    Thread-18 (_run_job):17940 [wandb_run.py:_config_callback():1382] config_cb None None {'beta_eff': 1.0, 'restricted': 'true'}
+2024-07-05 18:35:26,784 WARNING MsgRouterThr:17940 [router.py:message_loop():77] message_loop has been closed
+2024-07-05 18:35:26,983 INFO    MainThread:17940 [jupyter.py:save_ipynb():372] not saving jupyter notebook
+2024-07-05 18:35:26,983 INFO    MainThread:17940 [wandb_init.py:_pause_backend():440] pausing backend

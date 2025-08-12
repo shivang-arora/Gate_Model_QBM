@@ -1,0 +1,191 @@
+2024-07-23 15:04:58,809 INFO    StreamThr :11804 [internal.py:wandb_internal():85] W&B internal server running at pid: 11804, started at: 2024-07-23 15:04:58.808619
+2024-07-23 15:04:58,810 DEBUG   HandlerThread:11804 [handler.py:handle_request():158] handle_request: status
+2024-07-23 15:04:58,826 INFO    WriterThread:11804 [datastore.py:open_for_write():87] open: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240723_150458-81n0hgx3\run-81n0hgx3.wandb
+2024-07-23 15:04:58,827 DEBUG   SenderThread:11804 [sender.py:send():379] send: header
+2024-07-23 15:04:58,934 DEBUG   SenderThread:11804 [sender.py:send():379] send: run
+2024-07-23 15:04:59,587 INFO    SenderThread:11804 [dir_watcher.py:__init__():211] watching files in: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240723_150458-81n0hgx3\files
+2024-07-23 15:04:59,587 INFO    SenderThread:11804 [sender.py:_start_run_threads():1188] run started: 81n0hgx3 with start time 1721739898.808618
+2024-07-23 15:04:59,608 DEBUG   HandlerThread:11804 [handler.py:handle_request():158] handle_request: check_version
+2024-07-23 15:04:59,608 DEBUG   SenderThread:11804 [sender.py:send_request():406] send_request: check_version
+2024-07-23 15:04:59,723 DEBUG   HandlerThread:11804 [handler.py:handle_request():158] handle_request: run_start
+2024-07-23 15:04:59,740 DEBUG   HandlerThread:11804 [system_info.py:__init__():26] System info init
+2024-07-23 15:04:59,740 DEBUG   HandlerThread:11804 [system_info.py:__init__():41] System info init done
+2024-07-23 15:04:59,740 INFO    HandlerThread:11804 [system_monitor.py:start():194] Starting system monitor
+2024-07-23 15:04:59,740 INFO    SystemMonitor:11804 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-07-23 15:04:59,740 INFO    HandlerThread:11804 [system_monitor.py:probe():214] Collecting system info
+2024-07-23 15:04:59,746 INFO    SystemMonitor:11804 [interfaces.py:start():188] Started cpu monitoring
+2024-07-23 15:04:59,747 DEBUG   HandlerThread:11804 [system_info.py:probe():152] Probing system
+2024-07-23 15:04:59,747 INFO    SystemMonitor:11804 [interfaces.py:start():188] Started disk monitoring
+2024-07-23 15:04:59,748 INFO    SystemMonitor:11804 [interfaces.py:start():188] Started memory monitoring
+2024-07-23 15:04:59,761 INFO    SystemMonitor:11804 [interfaces.py:start():188] Started network monitoring
+2024-07-23 15:04:59,762 DEBUG   HandlerThread:11804 [system_info.py:_probe_git():137] Probing git
+2024-07-23 15:04:59,935 DEBUG   HandlerThread:11804 [system_info.py:_probe_git():145] Probing git done
+2024-07-23 15:04:59,936 DEBUG   HandlerThread:11804 [system_info.py:probe():200] Probing system done
+2024-07-23 15:04:59,936 DEBUG   HandlerThread:11804 [system_monitor.py:probe():223] {'os': 'Windows-10-10.0.22621-SP0', 'python': '3.11.0', 'heartbeatAt': '2024-07-23T13:04:59.747491', 'startedAt': '2024-07-23T13:04:58.793892', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': 'Gate_qbm/tests/wandb.ipynb', 'codePathLocal': None, 'root': 'C:/Users/ge84gac/Gate_qbm', 'git': {'remote': 'https://github.com/shivang-arora/Gate_qbm.git', 'commit': '4fe7018e522172637fa9f39320f6b38565185463'}, 'email': 'shivang.arora@tum.de', 'host': 'TUPHEQN-LPT-05', 'username': 'ge84gac', 'executable': 'C:\\Users\\ge84gac\\.conda\\envs\\qbmqsp\\python.exe', 'cpu_count': 8, 'cpu_count_logical': 16, 'cpu_freq': {'current': 2000.0, 'min': 0.0, 'max': 2000.0}, 'cpu_freq_per_core': [{'current': 2000.0, 'min': 0.0, 'max': 2000.0}], 'disk': {'/': {'total': 476.02050399780273, 'used': 188.12070083618164}}, 'memory': {'total': 15.313541412353516}}
+2024-07-23 15:04:59,936 INFO    HandlerThread:11804 [system_monitor.py:probe():224] Finished collecting system info
+2024-07-23 15:04:59,936 INFO    HandlerThread:11804 [system_monitor.py:probe():227] Publishing system info
+2024-07-23 15:04:59,936 DEBUG   HandlerThread:11804 [system_info.py:_save_conda():209] Saving list of conda packages installed into the current environment
+2024-07-23 15:05:00,591 INFO    Thread-16 :11804 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240723_150458-81n0hgx3\files\conda-environment.yaml
+2024-07-23 15:05:04,842 DEBUG   HandlerThread:11804 [system_info.py:_save_conda():224] Saving conda packages done
+2024-07-23 15:05:04,848 INFO    HandlerThread:11804 [system_monitor.py:probe():229] Finished publishing system info
+2024-07-23 15:05:04,852 DEBUG   HandlerThread:11804 [handler.py:handle_request():158] handle_request: status_report
+2024-07-23 15:05:04,852 DEBUG   HandlerThread:11804 [handler.py:handle_request():158] handle_request: keepalive
+2024-07-23 15:05:04,852 DEBUG   SenderThread:11804 [sender.py:send():379] send: files
+2024-07-23 15:05:04,852 INFO    SenderThread:11804 [sender.py:_save_file():1454] saving file wandb-metadata.json with policy now
+2024-07-23 15:05:05,136 DEBUG   HandlerThread:11804 [handler.py:handle_request():158] handle_request: python_packages
+2024-07-23 15:05:05,137 DEBUG   SenderThread:11804 [sender.py:send_request():406] send_request: python_packages
+2024-07-23 15:05:05,137 DEBUG   HandlerThread:11804 [handler.py:handle_request():158] handle_request: stop_status
+2024-07-23 15:05:05,138 DEBUG   HandlerThread:11804 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-23 15:05:05,138 DEBUG   SenderThread:11804 [sender.py:send_request():406] send_request: stop_status
+2024-07-23 15:05:05,505 DEBUG   SenderThread:11804 [sender.py:send():379] send: telemetry
+2024-07-23 15:05:05,506 DEBUG   SenderThread:11804 [sender.py:send():379] send: config
+2024-07-23 15:05:05,506 DEBUG   SenderThread:11804 [sender.py:send():379] send: telemetry
+2024-07-23 15:05:05,506 DEBUG   SenderThread:11804 [sender.py:send():379] send: run
+2024-07-23 15:05:05,553 INFO    wandb-upload_0:11804 [upload_job.py:push():130] Uploaded file C:\Users\ge84gac\AppData\Local\Temp\tmpqqrl3qvqwandb\s3hnaxd1-wandb-metadata.json
+2024-07-23 15:05:05,637 INFO    Thread-16 :11804 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240723_150458-81n0hgx3\files\config.yaml
+2024-07-23 15:05:05,637 INFO    Thread-16 :11804 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240723_150458-81n0hgx3\files\conda-environment.yaml
+2024-07-23 15:05:05,637 INFO    Thread-16 :11804 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240723_150458-81n0hgx3\files\requirements.txt
+2024-07-23 15:05:05,637 INFO    Thread-16 :11804 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240723_150458-81n0hgx3\files\wandb-metadata.json
+2024-07-23 15:05:05,678 INFO    SenderThread:11804 [sender.py:send_run():1035] updated run: 81n0hgx3
+2024-07-23 15:05:06,137 DEBUG   HandlerThread:11804 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-23 15:05:06,638 INFO    Thread-16 :11804 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240723_150458-81n0hgx3\files\output.log
+2024-07-23 15:05:07,141 DEBUG   HandlerThread:11804 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-23 15:05:08,154 DEBUG   HandlerThread:11804 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-23 15:05:08,653 INFO    Thread-16 :11804 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240723_150458-81n0hgx3\files\output.log
+2024-07-23 15:05:09,154 DEBUG   HandlerThread:11804 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-23 15:05:10,132 DEBUG   HandlerThread:11804 [handler.py:handle_request():158] handle_request: status_report
+2024-07-23 15:05:10,163 DEBUG   HandlerThread:11804 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-23 15:05:11,168 DEBUG   HandlerThread:11804 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-23 15:05:12,175 DEBUG   HandlerThread:11804 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-23 15:05:12,677 INFO    Thread-16 :11804 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240723_150458-81n0hgx3\files\output.log
+2024-07-23 15:05:12,693 DEBUG   SenderThread:11804 [sender.py:send():379] send: telemetry
+2024-07-23 15:05:12,694 DEBUG   HandlerThread:11804 [handler.py:handle_request():158] handle_request: server_info
+2024-07-23 15:05:12,694 DEBUG   SenderThread:11804 [sender.py:send_request():406] send_request: server_info
+2024-07-23 15:05:12,959 DEBUG   SenderThread:11804 [sender.py:send():379] send: exit
+2024-07-23 15:05:12,959 INFO    SenderThread:11804 [sender.py:send_exit():586] handling exit code: 1
+2024-07-23 15:05:12,959 INFO    SenderThread:11804 [sender.py:send_exit():588] handling runtime: 13
+2024-07-23 15:05:12,961 INFO    SenderThread:11804 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-07-23 15:05:12,961 INFO    SenderThread:11804 [sender.py:send_exit():594] send defer
+2024-07-23 15:05:12,962 DEBUG   HandlerThread:11804 [handler.py:handle_request():158] handle_request: defer
+2024-07-23 15:05:12,962 INFO    HandlerThread:11804 [handler.py:handle_request_defer():184] handle defer: 0
+2024-07-23 15:05:12,962 DEBUG   SenderThread:11804 [sender.py:send_request():406] send_request: defer
+2024-07-23 15:05:12,962 INFO    SenderThread:11804 [sender.py:send_request_defer():610] handle sender defer: 0
+2024-07-23 15:05:12,962 INFO    SenderThread:11804 [sender.py:transition_state():614] send defer: 1
+2024-07-23 15:05:12,962 DEBUG   HandlerThread:11804 [handler.py:handle_request():158] handle_request: defer
+2024-07-23 15:05:12,962 INFO    HandlerThread:11804 [handler.py:handle_request_defer():184] handle defer: 1
+2024-07-23 15:05:12,963 DEBUG   SenderThread:11804 [sender.py:send_request():406] send_request: defer
+2024-07-23 15:05:12,963 INFO    SenderThread:11804 [sender.py:send_request_defer():610] handle sender defer: 1
+2024-07-23 15:05:12,963 INFO    SenderThread:11804 [sender.py:transition_state():614] send defer: 2
+2024-07-23 15:05:12,963 DEBUG   HandlerThread:11804 [handler.py:handle_request():158] handle_request: defer
+2024-07-23 15:05:12,963 INFO    HandlerThread:11804 [handler.py:handle_request_defer():184] handle defer: 2
+2024-07-23 15:05:12,963 INFO    HandlerThread:11804 [system_monitor.py:finish():203] Stopping system monitor
+2024-07-23 15:05:12,963 DEBUG   SystemMonitor:11804 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-07-23 15:05:12,964 DEBUG   SystemMonitor:11804 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-07-23 15:05:12,964 INFO    HandlerThread:11804 [interfaces.py:finish():200] Joined cpu monitor
+2024-07-23 15:05:12,964 DEBUG   SystemMonitor:11804 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-07-23 15:05:12,964 INFO    HandlerThread:11804 [interfaces.py:finish():200] Joined disk monitor
+2024-07-23 15:05:12,965 INFO    HandlerThread:11804 [interfaces.py:finish():200] Joined memory monitor
+2024-07-23 15:05:12,965 INFO    HandlerThread:11804 [interfaces.py:finish():200] Joined network monitor
+2024-07-23 15:05:12,965 DEBUG   SenderThread:11804 [sender.py:send_request():406] send_request: defer
+2024-07-23 15:05:12,965 INFO    SenderThread:11804 [sender.py:send_request_defer():610] handle sender defer: 2
+2024-07-23 15:05:12,965 INFO    SenderThread:11804 [sender.py:transition_state():614] send defer: 3
+2024-07-23 15:05:12,966 DEBUG   SenderThread:11804 [sender.py:send():379] send: stats
+2024-07-23 15:05:12,966 DEBUG   HandlerThread:11804 [handler.py:handle_request():158] handle_request: defer
+2024-07-23 15:05:12,966 INFO    HandlerThread:11804 [handler.py:handle_request_defer():184] handle defer: 3
+2024-07-23 15:05:12,966 DEBUG   SenderThread:11804 [sender.py:send_request():406] send_request: defer
+2024-07-23 15:05:12,967 INFO    SenderThread:11804 [sender.py:send_request_defer():610] handle sender defer: 3
+2024-07-23 15:05:12,967 INFO    SenderThread:11804 [sender.py:transition_state():614] send defer: 4
+2024-07-23 15:05:12,967 DEBUG   HandlerThread:11804 [handler.py:handle_request():158] handle_request: defer
+2024-07-23 15:05:12,967 INFO    HandlerThread:11804 [handler.py:handle_request_defer():184] handle defer: 4
+2024-07-23 15:05:12,967 DEBUG   SenderThread:11804 [sender.py:send_request():406] send_request: defer
+2024-07-23 15:05:12,967 INFO    SenderThread:11804 [sender.py:send_request_defer():610] handle sender defer: 4
+2024-07-23 15:05:12,967 INFO    SenderThread:11804 [sender.py:transition_state():614] send defer: 5
+2024-07-23 15:05:12,967 DEBUG   HandlerThread:11804 [handler.py:handle_request():158] handle_request: defer
+2024-07-23 15:05:12,967 INFO    HandlerThread:11804 [handler.py:handle_request_defer():184] handle defer: 5
+2024-07-23 15:05:12,969 DEBUG   SenderThread:11804 [sender.py:send():379] send: summary
+2024-07-23 15:05:12,970 INFO    SenderThread:11804 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-07-23 15:05:12,970 DEBUG   SenderThread:11804 [sender.py:send_request():406] send_request: defer
+2024-07-23 15:05:12,970 INFO    SenderThread:11804 [sender.py:send_request_defer():610] handle sender defer: 5
+2024-07-23 15:05:12,970 INFO    SenderThread:11804 [sender.py:transition_state():614] send defer: 6
+2024-07-23 15:05:12,970 DEBUG   HandlerThread:11804 [handler.py:handle_request():158] handle_request: defer
+2024-07-23 15:05:12,970 INFO    HandlerThread:11804 [handler.py:handle_request_defer():184] handle defer: 6
+2024-07-23 15:05:12,971 DEBUG   SenderThread:11804 [sender.py:send_request():406] send_request: defer
+2024-07-23 15:05:12,971 INFO    SenderThread:11804 [sender.py:send_request_defer():610] handle sender defer: 6
+2024-07-23 15:05:12,974 DEBUG   HandlerThread:11804 [handler.py:handle_request():158] handle_request: status_report
+2024-07-23 15:05:13,277 INFO    SenderThread:11804 [sender.py:transition_state():614] send defer: 7
+2024-07-23 15:05:13,277 DEBUG   HandlerThread:11804 [handler.py:handle_request():158] handle_request: defer
+2024-07-23 15:05:13,278 INFO    HandlerThread:11804 [handler.py:handle_request_defer():184] handle defer: 7
+2024-07-23 15:05:13,279 DEBUG   SenderThread:11804 [sender.py:send_request():406] send_request: defer
+2024-07-23 15:05:13,279 INFO    SenderThread:11804 [sender.py:send_request_defer():610] handle sender defer: 7
+2024-07-23 15:05:13,679 INFO    Thread-16 :11804 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240723_150458-81n0hgx3\files\config.yaml
+2024-07-23 15:05:13,679 INFO    Thread-16 :11804 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240723_150458-81n0hgx3\files\wandb-summary.json
+2024-07-23 15:05:13,688 INFO    SenderThread:11804 [sender.py:transition_state():614] send defer: 8
+2024-07-23 15:05:13,689 DEBUG   HandlerThread:11804 [handler.py:handle_request():158] handle_request: defer
+2024-07-23 15:05:13,689 INFO    HandlerThread:11804 [handler.py:handle_request_defer():184] handle defer: 8
+2024-07-23 15:05:13,689 DEBUG   SenderThread:11804 [sender.py:send_request():406] send_request: defer
+2024-07-23 15:05:13,689 INFO    SenderThread:11804 [sender.py:send_request_defer():610] handle sender defer: 8
+2024-07-23 15:05:13,689 INFO    SenderThread:11804 [sender.py:transition_state():614] send defer: 9
+2024-07-23 15:05:13,689 DEBUG   HandlerThread:11804 [handler.py:handle_request():158] handle_request: defer
+2024-07-23 15:05:13,689 INFO    HandlerThread:11804 [handler.py:handle_request_defer():184] handle defer: 9
+2024-07-23 15:05:13,691 DEBUG   SenderThread:11804 [sender.py:send_request():406] send_request: defer
+2024-07-23 15:05:13,691 INFO    SenderThread:11804 [sender.py:send_request_defer():610] handle sender defer: 9
+2024-07-23 15:05:13,691 INFO    SenderThread:11804 [dir_watcher.py:finish():358] shutting down directory watcher
+2024-07-23 15:05:13,959 DEBUG   HandlerThread:11804 [handler.py:handle_request():158] handle_request: poll_exit
+2024-07-23 15:05:14,682 INFO    SenderThread:11804 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240723_150458-81n0hgx3\files\output.log
+2024-07-23 15:05:14,683 INFO    SenderThread:11804 [dir_watcher.py:finish():388] scan: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240723_150458-81n0hgx3\files
+2024-07-23 15:05:14,683 INFO    SenderThread:11804 [dir_watcher.py:finish():402] scan save: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240723_150458-81n0hgx3\files\conda-environment.yaml conda-environment.yaml
+2024-07-23 15:05:14,683 INFO    SenderThread:11804 [dir_watcher.py:finish():402] scan save: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240723_150458-81n0hgx3\files\config.yaml config.yaml
+2024-07-23 15:05:14,685 INFO    SenderThread:11804 [dir_watcher.py:finish():402] scan save: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240723_150458-81n0hgx3\files\output.log output.log
+2024-07-23 15:05:14,688 INFO    SenderThread:11804 [dir_watcher.py:finish():402] scan save: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240723_150458-81n0hgx3\files\requirements.txt requirements.txt
+2024-07-23 15:05:14,691 INFO    SenderThread:11804 [dir_watcher.py:finish():402] scan save: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240723_150458-81n0hgx3\files\wandb-metadata.json wandb-metadata.json
+2024-07-23 15:05:14,691 INFO    SenderThread:11804 [dir_watcher.py:finish():402] scan save: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240723_150458-81n0hgx3\files\wandb-summary.json wandb-summary.json
+2024-07-23 15:05:14,693 INFO    SenderThread:11804 [sender.py:transition_state():614] send defer: 10
+2024-07-23 15:05:14,693 DEBUG   SenderThread:11804 [sender.py:send_request():406] send_request: poll_exit
+2024-07-23 15:05:14,693 DEBUG   HandlerThread:11804 [handler.py:handle_request():158] handle_request: defer
+2024-07-23 15:05:14,695 INFO    HandlerThread:11804 [handler.py:handle_request_defer():184] handle defer: 10
+2024-07-23 15:05:14,696 DEBUG   SenderThread:11804 [sender.py:send_request():406] send_request: defer
+2024-07-23 15:05:14,696 INFO    SenderThread:11804 [sender.py:send_request_defer():610] handle sender defer: 10
+2024-07-23 15:05:14,696 INFO    SenderThread:11804 [file_pusher.py:finish():169] shutting down file pusher
+2024-07-23 15:05:14,968 DEBUG   HandlerThread:11804 [handler.py:handle_request():158] handle_request: poll_exit
+2024-07-23 15:05:14,969 DEBUG   SenderThread:11804 [sender.py:send_request():406] send_request: poll_exit
+2024-07-23 15:05:15,103 INFO    wandb-upload_1:11804 [upload_job.py:push():130] Uploaded file C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240723_150458-81n0hgx3\files\config.yaml
+2024-07-23 15:05:15,263 INFO    wandb-upload_0:11804 [upload_job.py:push():130] Uploaded file C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240723_150458-81n0hgx3\files\conda-environment.yaml
+2024-07-23 15:05:15,329 INFO    wandb-upload_4:11804 [upload_job.py:push():130] Uploaded file C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240723_150458-81n0hgx3\files\wandb-summary.json
+2024-07-23 15:05:15,357 INFO    wandb-upload_3:11804 [upload_job.py:push():130] Uploaded file C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240723_150458-81n0hgx3\files\requirements.txt
+2024-07-23 15:05:15,390 INFO    wandb-upload_2:11804 [upload_job.py:push():130] Uploaded file C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240723_150458-81n0hgx3\files\output.log
+2024-07-23 15:05:15,597 INFO    Thread-15 (_thread_body):11804 [sender.py:transition_state():614] send defer: 11
+2024-07-23 15:05:15,597 DEBUG   HandlerThread:11804 [handler.py:handle_request():158] handle_request: defer
+2024-07-23 15:05:15,598 INFO    HandlerThread:11804 [handler.py:handle_request_defer():184] handle defer: 11
+2024-07-23 15:05:15,599 DEBUG   SenderThread:11804 [sender.py:send_request():406] send_request: defer
+2024-07-23 15:05:15,599 INFO    SenderThread:11804 [sender.py:send_request_defer():610] handle sender defer: 11
+2024-07-23 15:05:15,599 INFO    SenderThread:11804 [file_pusher.py:join():175] waiting for file pusher
+2024-07-23 15:05:15,603 INFO    SenderThread:11804 [sender.py:transition_state():614] send defer: 12
+2024-07-23 15:05:15,604 DEBUG   HandlerThread:11804 [handler.py:handle_request():158] handle_request: defer
+2024-07-23 15:05:15,604 INFO    HandlerThread:11804 [handler.py:handle_request_defer():184] handle defer: 12
+2024-07-23 15:05:15,604 DEBUG   SenderThread:11804 [sender.py:send_request():406] send_request: defer
+2024-07-23 15:05:15,604 INFO    SenderThread:11804 [sender.py:send_request_defer():610] handle sender defer: 12
+2024-07-23 15:05:15,604 INFO    SenderThread:11804 [file_stream.py:finish():601] file stream finish called
+2024-07-23 15:05:15,770 INFO    SenderThread:11804 [file_stream.py:finish():605] file stream finish is done
+2024-07-23 15:05:15,770 INFO    SenderThread:11804 [sender.py:transition_state():614] send defer: 13
+2024-07-23 15:05:15,770 DEBUG   HandlerThread:11804 [handler.py:handle_request():158] handle_request: defer
+2024-07-23 15:05:15,770 INFO    HandlerThread:11804 [handler.py:handle_request_defer():184] handle defer: 13
+2024-07-23 15:05:15,770 DEBUG   SenderThread:11804 [sender.py:send_request():406] send_request: defer
+2024-07-23 15:05:15,771 INFO    SenderThread:11804 [sender.py:send_request_defer():610] handle sender defer: 13
+2024-07-23 15:05:15,771 INFO    SenderThread:11804 [sender.py:transition_state():614] send defer: 14
+2024-07-23 15:05:15,772 DEBUG   HandlerThread:11804 [handler.py:handle_request():158] handle_request: defer
+2024-07-23 15:05:15,772 DEBUG   SenderThread:11804 [sender.py:send():379] send: final
+2024-07-23 15:05:15,772 INFO    HandlerThread:11804 [handler.py:handle_request_defer():184] handle defer: 14
+2024-07-23 15:05:15,772 DEBUG   SenderThread:11804 [sender.py:send():379] send: footer
+2024-07-23 15:05:15,772 DEBUG   SenderThread:11804 [sender.py:send_request():406] send_request: defer
+2024-07-23 15:05:15,772 INFO    SenderThread:11804 [sender.py:send_request_defer():610] handle sender defer: 14
+2024-07-23 15:05:15,773 DEBUG   HandlerThread:11804 [handler.py:handle_request():158] handle_request: poll_exit
+2024-07-23 15:05:15,773 DEBUG   SenderThread:11804 [sender.py:send_request():406] send_request: poll_exit
+2024-07-23 15:05:15,774 DEBUG   HandlerThread:11804 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-23 15:05:15,775 DEBUG   HandlerThread:11804 [handler.py:handle_request():158] handle_request: get_summary
+2024-07-23 15:05:15,776 DEBUG   HandlerThread:11804 [handler.py:handle_request():158] handle_request: sampled_history
+2024-07-23 15:05:15,776 DEBUG   HandlerThread:11804 [handler.py:handle_request():158] handle_request: shutdown
+2024-07-23 15:05:15,776 INFO    HandlerThread:11804 [handler.py:finish():882] shutting down handler
+2024-07-23 15:05:16,777 INFO    SenderThread:11804 [sender.py:finish():1608] shutting down sender
+2024-07-23 15:05:16,778 INFO    WriterThread:11804 [datastore.py:close():296] close: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240723_150458-81n0hgx3\run-81n0hgx3.wandb
+2024-07-23 15:05:16,778 INFO    SenderThread:11804 [file_pusher.py:finish():169] shutting down file pusher
+2024-07-23 15:05:16,778 INFO    SenderThread:11804 [file_pusher.py:join():175] waiting for file pusher

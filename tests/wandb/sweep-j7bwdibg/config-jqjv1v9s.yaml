@@ -1,0 +1,12 @@
+wandb_version: 1
+
+batchsize:
+  value: 14
+beta_eff:
+  value: 1.673068121702014
+epochs:
+  value: 11
+hnodes:
+  value: 1
+learning_rate:
+  value: 0.5637699588505932

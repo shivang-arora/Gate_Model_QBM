@@ -1,0 +1,44 @@
+{
+    "os": "Windows-10-10.0.22621-SP0",
+    "python": "3.11.0",
+    "heartbeatAt": "2024-07-28T01:27:59.347288",
+    "startedAt": "2024-07-28T01:27:58.502879",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "Gate_qbm/tests/wandb_transverse.ipynb",
+    "codePathLocal": null,
+    "root": "C:/Users/ge84gac/Gate_qbm",
+    "git": {
+        "remote": "https://github.com/shivang-arora/Gate_qbm.git",
+        "commit": "4fe7018e522172637fa9f39320f6b38565185463"
+    },
+    "email": "shivang.arora@tum.de",
+    "host": "TUPHEQN-LPT-05",
+    "username": "ge84gac",
+    "executable": "C:\\Users\\ge84gac\\.conda\\envs\\qbmqsp\\python.exe",
+    "cpu_count": 8,
+    "cpu_count_logical": 16,
+    "cpu_freq": {
+        "current": 2000.0,
+        "min": 0.0,
+        "max": 2000.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2000.0,
+            "min": 0.0,
+            "max": 2000.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 476.02050399780273,
+            "used": 194.20514297485352
+        }
+    },
+    "memory": {
+        "total": 15.313541412353516
+    }
+}

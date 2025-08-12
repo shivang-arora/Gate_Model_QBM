@@ -1,0 +1,12 @@
+{
+    "epochs": 2,
+    "n_hidden_nodes": 10,
+    "solver": "SA",
+    "sample_count": 20,
+    "anneal_steps": 20,
+    "beta_eff": 1,
+    "seed": 77,
+    "restricted": false,
+    "batch_size":40,
+    "learning_rate":0.05
+}

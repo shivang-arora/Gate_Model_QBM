@@ -1,0 +1,34 @@
+2024-07-28 19:01:07,829 INFO    Thread-42 (_run_job):11812 [wandb_setup.py:_flush():76] Current SDK version is 0.17.4
+2024-07-28 19:01:07,830 INFO    Thread-42 (_run_job):11812 [wandb_setup.py:_flush():76] Configure stats pid to 11812
+2024-07-28 19:01:07,830 INFO    Thread-42 (_run_job):11812 [wandb_setup.py:_flush():76] Loading settings from C:\Users\ge84gac\.config\wandb\settings
+2024-07-28 19:01:07,830 INFO    Thread-42 (_run_job):11812 [wandb_setup.py:_flush():76] Loading settings from C:\Users\ge84gac\Gate_qbm\tests\wandb\settings
+2024-07-28 19:01:07,830 INFO    Thread-42 (_run_job):11812 [wandb_setup.py:_flush():76] Loading settings from environment variables: {'entity': 'shivang_arora', 'project': 'Gate-qbm-anomaly-detection-transverse', 'root_dir': 'C:\\Users\\ge84gac\\Gate_qbm\\tests', 'run_id': 'ac6pe67g', 'sweep_param_path': 'C:\\Users\\ge84gac\\Gate_qbm\\tests\\wandb\\sweep-iok1td1z\\config-ac6pe67g.yaml', 'sweep_id': 'iok1td1z'}
+2024-07-28 19:01:07,830 INFO    Thread-42 (_run_job):11812 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2024-07-28 19:01:07,831 INFO    Thread-42 (_run_job):11812 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2024-07-28 19:01:07,831 INFO    Thread-42 (_run_job):11812 [wandb_setup.py:_flush():76] Applying login settings: {}
+2024-07-28 19:01:07,831 INFO    Thread-42 (_run_job):11812 [wandb_init.py:_log_setup():529] Logging user logs to C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_190107-ac6pe67g\logs\debug.log
+2024-07-28 19:01:07,831 INFO    Thread-42 (_run_job):11812 [wandb_init.py:_log_setup():530] Logging internal logs to C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_190107-ac6pe67g\logs\debug-internal.log
+2024-07-28 19:01:07,831 INFO    Thread-42 (_run_job):11812 [wandb_init.py:_jupyter_setup():475] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x000001FDC9D21750>
+2024-07-28 19:01:07,831 INFO    Thread-42 (_run_job):11812 [wandb_init.py:init():569] calling init triggers
+2024-07-28 19:01:07,831 INFO    Thread-42 (_run_job):11812 [wandb_init.py:init():576] wandb.init called with sweep_config: {'batchsize': 73, 'beta_eff': 1.7782274212954747, 'epochs': 7, 'hnodes': 1, 'learning_rate': 0.6058642443189942, 't_bias': 4.9823628924735885}
+config: {}
+2024-07-28 19:01:07,832 INFO    Thread-42 (_run_job):11812 [wandb_init.py:init():619] starting backend
+2024-07-28 19:01:07,832 INFO    Thread-42 (_run_job):11812 [wandb_init.py:init():623] setting up manager
+2024-07-28 19:01:07,843 INFO    Thread-42 (_run_job):11812 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=spawn, using: spawn
+2024-07-28 19:01:07,845 INFO    Thread-42 (_run_job):11812 [wandb_init.py:init():631] backend started and connected
+2024-07-28 19:01:07,874 INFO    Thread-42 (_run_job):11812 [wandb_run.py:_config_callback():1382] config_cb None None {'batchsize': 73, 'beta_eff': 1.7782274212954747, 'epochs': 7, 'hnodes': 1, 'learning_rate': 0.6058642443189942, 't_bias': 4.9823628924735885}
+2024-07-28 19:01:07,876 INFO    Thread-42 (_run_job):11812 [wandb_run.py:_label_probe_notebook():1334] probe notebook
+2024-07-28 19:01:07,876 INFO    Thread-42 (_run_job):11812 [wandb_run.py:_label_probe_notebook():1344] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2024-07-28 19:01:07,877 INFO    Thread-42 (_run_job):11812 [wandb_init.py:init():720] updated telemetry
+2024-07-28 19:01:08,027 INFO    Thread-42 (_run_job):11812 [wandb_init.py:init():753] communicating run to backend with 90.0 second timeout
+2024-07-28 19:01:08,468 INFO    Thread-42 (_run_job):11812 [wandb_run.py:_on_init():2402] communicating current version
+2024-07-28 19:01:08,581 INFO    Thread-42 (_run_job):11812 [wandb_run.py:_on_init():2411] got version response upgrade_message: "wandb version 0.17.5 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2024-07-28 19:01:08,581 INFO    Thread-42 (_run_job):11812 [wandb_init.py:init():804] starting run threads in backend
+2024-07-28 19:01:16,221 INFO    Thread-42 (_run_job):11812 [wandb_run.py:_console_start():2380] atexit reg
+2024-07-28 19:01:16,221 INFO    Thread-42 (_run_job):11812 [wandb_run.py:_redirect():2235] redirect: wrap_raw
+2024-07-28 19:01:16,221 INFO    Thread-42 (_run_job):11812 [wandb_run.py:_redirect():2300] Wrapping output streams.
+2024-07-28 19:01:16,221 INFO    Thread-42 (_run_job):11812 [wandb_run.py:_redirect():2325] Redirects installed.
+2024-07-28 19:01:16,223 INFO    Thread-42 (_run_job):11812 [wandb_init.py:init():847] run started, returning control to user process
+2024-07-28 19:01:16,223 INFO    Thread-42 (_run_job):11812 [wandb_run.py:_config_callback():1382] config_cb None None {'restricted': 'false'}
+2024-07-28 19:19:29,468 WARNING MsgRouterThr:11812 [router.py:message_loop():77] message_loop has been closed

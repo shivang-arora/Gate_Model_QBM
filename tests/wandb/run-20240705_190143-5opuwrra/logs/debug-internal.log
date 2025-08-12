@@ -1,0 +1,66 @@
+2024-07-05 19:01:43,484 INFO    StreamThr :5628 [internal.py:wandb_internal():85] W&B internal server running at pid: 5628, started at: 2024-07-05 19:01:43.484282
+2024-07-05 19:01:43,486 DEBUG   HandlerThread:5628 [handler.py:handle_request():158] handle_request: status
+2024-07-05 19:01:43,504 INFO    WriterThread:5628 [datastore.py:open_for_write():87] open: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240705_190143-5opuwrra\run-5opuwrra.wandb
+2024-07-05 19:01:43,504 DEBUG   SenderThread:5628 [sender.py:send():379] send: header
+2024-07-05 19:01:43,818 DEBUG   SenderThread:5628 [sender.py:send():379] send: run
+2024-07-05 19:01:44,227 INFO    SenderThread:5628 [dir_watcher.py:__init__():211] watching files in: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240705_190143-5opuwrra\files
+2024-07-05 19:01:44,227 INFO    SenderThread:5628 [sender.py:_start_run_threads():1188] run started: 5opuwrra with start time 1720198903.484282
+2024-07-05 19:01:44,240 DEBUG   HandlerThread:5628 [handler.py:handle_request():158] handle_request: check_version
+2024-07-05 19:01:44,240 DEBUG   SenderThread:5628 [sender.py:send_request():406] send_request: check_version
+2024-07-05 19:01:44,351 DEBUG   HandlerThread:5628 [handler.py:handle_request():158] handle_request: run_start
+2024-07-05 19:01:44,366 DEBUG   HandlerThread:5628 [system_info.py:__init__():26] System info init
+2024-07-05 19:01:44,366 DEBUG   HandlerThread:5628 [system_info.py:__init__():41] System info init done
+2024-07-05 19:01:44,366 INFO    HandlerThread:5628 [system_monitor.py:start():194] Starting system monitor
+2024-07-05 19:01:44,366 INFO    SystemMonitor:5628 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-07-05 19:01:44,366 INFO    HandlerThread:5628 [system_monitor.py:probe():214] Collecting system info
+2024-07-05 19:01:44,372 INFO    SystemMonitor:5628 [interfaces.py:start():188] Started cpu monitoring
+2024-07-05 19:01:44,372 DEBUG   HandlerThread:5628 [system_info.py:probe():152] Probing system
+2024-07-05 19:01:44,372 INFO    SystemMonitor:5628 [interfaces.py:start():188] Started disk monitoring
+2024-07-05 19:01:44,373 INFO    SystemMonitor:5628 [interfaces.py:start():188] Started memory monitoring
+2024-07-05 19:01:44,386 INFO    SystemMonitor:5628 [interfaces.py:start():188] Started network monitoring
+2024-07-05 19:01:44,387 DEBUG   HandlerThread:5628 [system_info.py:_probe_git():137] Probing git
+2024-07-05 19:01:44,548 DEBUG   HandlerThread:5628 [system_info.py:_probe_git():145] Probing git done
+2024-07-05 19:01:44,548 DEBUG   HandlerThread:5628 [system_info.py:probe():200] Probing system done
+2024-07-05 19:01:44,548 DEBUG   HandlerThread:5628 [system_monitor.py:probe():223] {'os': 'Windows-10-10.0.22621-SP0', 'python': '3.11.0', 'heartbeatAt': '2024-07-05T17:01:44.372793', 'startedAt': '2024-07-05T17:01:43.469219', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': 'Gate_qbm/tests/wandb.ipynb', 'codePathLocal': None, 'root': 'C:/Users/ge84gac/Gate_qbm', 'git': {'remote': 'https://github.com/shivang-arora/Gate_qbm.git', 'commit': '4fe7018e522172637fa9f39320f6b38565185463'}, 'email': 'shivang.arora@tum.de', 'host': 'TUPHEQN-LPT-05', 'username': 'ge84gac', 'executable': 'C:\\Users\\ge84gac\\.conda\\envs\\qbmqsp\\python.exe', 'cpu_count': 8, 'cpu_count_logical': 16, 'cpu_freq': {'current': 2000.0, 'min': 0.0, 'max': 2000.0}, 'cpu_freq_per_core': [{'current': 2000.0, 'min': 0.0, 'max': 2000.0}], 'disk': {'/': {'total': 476.02050399780273, 'used': 187.5598258972168}}, 'memory': {'total': 15.313541412353516}}
+2024-07-05 19:01:44,548 INFO    HandlerThread:5628 [system_monitor.py:probe():224] Finished collecting system info
+2024-07-05 19:01:44,548 INFO    HandlerThread:5628 [system_monitor.py:probe():227] Publishing system info
+2024-07-05 19:01:44,548 DEBUG   HandlerThread:5628 [system_info.py:_save_conda():209] Saving list of conda packages installed into the current environment
+2024-07-05 19:01:45,237 INFO    Thread-16 :5628 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240705_190143-5opuwrra\files\conda-environment.yaml
+2024-07-05 19:01:49,125 DEBUG   HandlerThread:5628 [system_info.py:_save_conda():224] Saving conda packages done
+2024-07-05 19:01:49,126 INFO    HandlerThread:5628 [system_monitor.py:probe():229] Finished publishing system info
+2024-07-05 19:01:49,130 DEBUG   SenderThread:5628 [sender.py:send():379] send: files
+2024-07-05 19:01:49,130 INFO    SenderThread:5628 [sender.py:_save_file():1454] saving file wandb-metadata.json with policy now
+2024-07-05 19:01:49,130 DEBUG   HandlerThread:5628 [handler.py:handle_request():158] handle_request: status_report
+2024-07-05 19:01:49,267 INFO    Thread-16 :5628 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240705_190143-5opuwrra\files\conda-environment.yaml
+2024-07-05 19:01:49,268 INFO    Thread-16 :5628 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240705_190143-5opuwrra\files\wandb-metadata.json
+2024-07-05 19:01:49,317 DEBUG   HandlerThread:5628 [handler.py:handle_request():158] handle_request: python_packages
+2024-07-05 19:01:49,318 DEBUG   SenderThread:5628 [sender.py:send_request():406] send_request: python_packages
+2024-07-05 19:01:49,318 DEBUG   HandlerThread:5628 [handler.py:handle_request():158] handle_request: stop_status
+2024-07-05 19:01:49,319 DEBUG   SenderThread:5628 [sender.py:send_request():406] send_request: stop_status
+2024-07-05 19:01:49,319 DEBUG   HandlerThread:5628 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-05 19:01:49,633 DEBUG   SenderThread:5628 [sender.py:send():379] send: telemetry
+2024-07-05 19:01:49,633 DEBUG   SenderThread:5628 [sender.py:send():379] send: config
+2024-07-05 19:01:49,633 DEBUG   SenderThread:5628 [sender.py:send():379] send: telemetry
+2024-07-05 19:01:49,633 DEBUG   SenderThread:5628 [sender.py:send():379] send: run
+2024-07-05 19:01:49,817 INFO    SenderThread:5628 [sender.py:send_run():1035] updated run: 5opuwrra
+2024-07-05 19:01:49,866 INFO    wandb-upload_0:5628 [upload_job.py:push():130] Uploaded file C:\Users\ge84gac\AppData\Local\Temp\tmpxv31rgrtwandb\g21ggc38-wandb-metadata.json
+2024-07-05 19:01:50,268 INFO    Thread-16 :5628 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240705_190143-5opuwrra\files\config.yaml
+2024-07-05 19:01:50,269 INFO    Thread-16 :5628 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240705_190143-5opuwrra\files\requirements.txt
+2024-07-05 19:01:50,269 INFO    Thread-16 :5628 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240705_190143-5opuwrra\files\output.log
+2024-07-05 19:01:50,331 DEBUG   HandlerThread:5628 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-05 19:01:51,332 DEBUG   HandlerThread:5628 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-05 19:01:52,293 INFO    Thread-16 :5628 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240705_190143-5opuwrra\files\output.log
+2024-07-05 19:01:52,344 DEBUG   HandlerThread:5628 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-05 19:01:53,361 DEBUG   HandlerThread:5628 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-05 19:01:54,333 DEBUG   HandlerThread:5628 [handler.py:handle_request():158] handle_request: status_report
+2024-07-05 19:01:54,363 DEBUG   HandlerThread:5628 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-05 19:01:55,367 DEBUG   HandlerThread:5628 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-05 19:01:56,310 INFO    Thread-16 :5628 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240705_190143-5opuwrra\files\output.log
+2024-07-05 19:01:56,372 DEBUG   HandlerThread:5628 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-05 19:01:57,375 DEBUG   HandlerThread:5628 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-05 19:01:58,385 DEBUG   HandlerThread:5628 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-05 19:01:59,345 DEBUG   HandlerThread:5628 [handler.py:handle_request():158] handle_request: status_report
+2024-07-05 19:01:59,388 DEBUG   HandlerThread:5628 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-05 19:02:00,340 INFO    Thread-16 :5628 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240705_190143-5opuwrra\files\output.log
+2024-07-05 19:02:00,403 DEBUG   HandlerThread:5628 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-05 19:02:01,405 DEBUG   HandlerThread:5628 [handler.py:handle_request():158] handle_request: internal_messages

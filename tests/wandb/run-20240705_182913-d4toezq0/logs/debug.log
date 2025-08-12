@@ -1,0 +1,42 @@
+2024-07-05 18:29:13,255 INFO    Thread-11 (_run_job):17940 [wandb_setup.py:_flush():76] Current SDK version is 0.17.4
+2024-07-05 18:29:13,255 INFO    Thread-11 (_run_job):17940 [wandb_setup.py:_flush():76] Configure stats pid to 17940
+2024-07-05 18:29:13,256 INFO    Thread-11 (_run_job):17940 [wandb_setup.py:_flush():76] Loading settings from C:\Users\ge84gac\.config\wandb\settings
+2024-07-05 18:29:13,256 INFO    Thread-11 (_run_job):17940 [wandb_setup.py:_flush():76] Loading settings from C:\Users\ge84gac\Gate_qbm\tests\wandb\settings
+2024-07-05 18:29:13,256 INFO    Thread-11 (_run_job):17940 [wandb_setup.py:_flush():76] Loading settings from environment variables: {'entity': 'shivang_arora', 'project': 'Gate-qbm-anomaly-detection', 'root_dir': 'C:\\Users\\ge84gac\\Gate_qbm\\tests', 'sweep_id': 'gn5oqqsk', 'run_id': 'd4toezq0', 'sweep_param_path': 'C:\\Users\\ge84gac\\Gate_qbm\\tests\\wandb\\sweep-gn5oqqsk\\config-d4toezq0.yaml'}
+2024-07-05 18:29:13,256 INFO    Thread-11 (_run_job):17940 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2024-07-05 18:29:13,256 INFO    Thread-11 (_run_job):17940 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2024-07-05 18:29:13,256 INFO    Thread-11 (_run_job):17940 [wandb_setup.py:_flush():76] Applying login settings: {}
+2024-07-05 18:29:13,256 INFO    Thread-11 (_run_job):17940 [wandb_init.py:_log_setup():529] Logging user logs to C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240705_182913-d4toezq0\logs\debug.log
+2024-07-05 18:29:13,256 INFO    Thread-11 (_run_job):17940 [wandb_init.py:_log_setup():530] Logging internal logs to C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240705_182913-d4toezq0\logs\debug-internal.log
+2024-07-05 18:29:13,256 INFO    Thread-11 (_run_job):17940 [wandb_init.py:_jupyter_setup():475] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x00000202B2BE03D0>
+2024-07-05 18:29:13,257 INFO    Thread-11 (_run_job):17940 [wandb_init.py:init():569] calling init triggers
+2024-07-05 18:29:13,257 INFO    Thread-11 (_run_job):17940 [wandb_init.py:init():576] wandb.init called with sweep_config: {'batchsize': 28, 'epochs': 1, 'hnodes': 1, 'learning_rate': 0.08691742248283411}
+config: {}
+2024-07-05 18:29:13,258 INFO    Thread-11 (_run_job):17940 [wandb_init.py:init():619] starting backend
+2024-07-05 18:29:13,258 INFO    Thread-11 (_run_job):17940 [wandb_init.py:init():623] setting up manager
+2024-07-05 18:29:13,269 INFO    Thread-11 (_run_job):17940 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=spawn, using: spawn
+2024-07-05 18:29:13,271 INFO    Thread-11 (_run_job):17940 [wandb_init.py:init():631] backend started and connected
+2024-07-05 18:29:13,301 INFO    Thread-11 (_run_job):17940 [wandb_run.py:_config_callback():1382] config_cb None None {'batchsize': 28, 'epochs': 1, 'hnodes': 1, 'learning_rate': 0.08691742248283411}
+2024-07-05 18:29:13,302 INFO    Thread-11 (_run_job):17940 [wandb_run.py:_label_probe_notebook():1334] probe notebook
+2024-07-05 18:29:13,303 INFO    Thread-11 (_run_job):17940 [wandb_run.py:_label_probe_notebook():1344] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2024-07-05 18:29:13,304 INFO    Thread-11 (_run_job):17940 [wandb_init.py:init():720] updated telemetry
+2024-07-05 18:29:13,889 INFO    Thread-11 (_run_job):17940 [wandb_init.py:init():753] communicating run to backend with 90.0 second timeout
+2024-07-05 18:29:14,435 INFO    Thread-11 (_run_job):17940 [wandb_run.py:_on_init():2402] communicating current version
+2024-07-05 18:29:14,571 INFO    Thread-11 (_run_job):17940 [wandb_run.py:_on_init():2411] got version response 
+2024-07-05 18:29:14,571 INFO    Thread-11 (_run_job):17940 [wandb_init.py:init():804] starting run threads in backend
+2024-07-05 18:29:23,390 INFO    Thread-11 (_run_job):17940 [wandb_run.py:_console_start():2380] atexit reg
+2024-07-05 18:29:23,390 INFO    Thread-11 (_run_job):17940 [wandb_run.py:_redirect():2235] redirect: wrap_raw
+2024-07-05 18:29:23,391 INFO    Thread-11 (_run_job):17940 [wandb_run.py:_redirect():2300] Wrapping output streams.
+2024-07-05 18:29:23,391 INFO    Thread-11 (_run_job):17940 [wandb_run.py:_redirect():2325] Redirects installed.
+2024-07-05 18:29:23,394 INFO    Thread-11 (_run_job):17940 [wandb_init.py:init():847] run started, returning control to user process
+2024-07-05 18:29:23,394 INFO    Thread-11 (_run_job):17940 [wandb_run.py:_config_callback():1382] config_cb None None {'beta_eff': 1.0, 'restricted': 'true'}
+2024-07-05 18:31:44,539 INFO    Thread-11 (_run_job):17940 [wandb_run.py:_finish():2109] finishing run shivang_arora/Gate-qbm-anomaly-detection/d4toezq0
+2024-07-05 18:31:44,539 INFO    Thread-11 (_run_job):17940 [jupyter.py:save_history():444] not saving jupyter history
+2024-07-05 18:31:44,539 INFO    Thread-11 (_run_job):17940 [jupyter.py:save_ipynb():372] not saving jupyter notebook
+2024-07-05 18:31:44,540 INFO    Thread-11 (_run_job):17940 [wandb_init.py:_jupyter_teardown():457] cleaning up jupyter logic
+2024-07-05 18:31:44,540 INFO    Thread-11 (_run_job):17940 [wandb_run.py:_atexit_cleanup():2349] got exitcode: 1
+2024-07-05 18:31:44,540 INFO    Thread-11 (_run_job):17940 [wandb_run.py:_restore():2332] restore
+2024-07-05 18:31:44,540 INFO    Thread-11 (_run_job):17940 [wandb_run.py:_restore():2338] restore done
+2024-07-05 18:31:49,620 INFO    Thread-11 (_run_job):17940 [wandb_run.py:_footer_history_summary_info():3991] rendering history
+2024-07-05 18:31:49,620 INFO    Thread-11 (_run_job):17940 [wandb_run.py:_footer_history_summary_info():4023] rendering summary
+2024-07-05 18:31:49,632 INFO    Thread-11 (_run_job):17940 [wandb_run.py:_footer_sync_info():3950] logging synced files

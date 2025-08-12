@@ -1,0 +1,1241 @@
+2024-07-28 22:28:19,147 INFO    StreamThr :17792 [internal.py:wandb_internal():85] W&B internal server running at pid: 17792, started at: 2024-07-28 22:28:19.145657
+2024-07-28 22:28:19,149 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: status
+2024-07-28 22:28:19,166 INFO    WriterThread:17792 [datastore.py:open_for_write():87] open: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\run-zv9xrbb0.wandb
+2024-07-28 22:28:19,167 DEBUG   SenderThread:17792 [sender.py:send():379] send: header
+2024-07-28 22:28:19,253 DEBUG   SenderThread:17792 [sender.py:send():379] send: run
+2024-07-28 22:28:19,635 INFO    SenderThread:17792 [dir_watcher.py:__init__():211] watching files in: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files
+2024-07-28 22:28:19,635 INFO    SenderThread:17792 [sender.py:_start_run_threads():1188] run started: zv9xrbb0 with start time 1722198499.145656
+2024-07-28 22:28:19,652 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: check_version
+2024-07-28 22:28:19,652 DEBUG   SenderThread:17792 [sender.py:send_request():406] send_request: check_version
+2024-07-28 22:28:19,764 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: run_start
+2024-07-28 22:28:19,779 DEBUG   HandlerThread:17792 [system_info.py:__init__():26] System info init
+2024-07-28 22:28:19,779 DEBUG   HandlerThread:17792 [system_info.py:__init__():41] System info init done
+2024-07-28 22:28:19,779 INFO    HandlerThread:17792 [system_monitor.py:start():194] Starting system monitor
+2024-07-28 22:28:19,779 INFO    SystemMonitor:17792 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-07-28 22:28:19,779 INFO    HandlerThread:17792 [system_monitor.py:probe():214] Collecting system info
+2024-07-28 22:28:19,785 INFO    SystemMonitor:17792 [interfaces.py:start():188] Started cpu monitoring
+2024-07-28 22:28:19,786 DEBUG   HandlerThread:17792 [system_info.py:probe():152] Probing system
+2024-07-28 22:28:19,786 INFO    SystemMonitor:17792 [interfaces.py:start():188] Started disk monitoring
+2024-07-28 22:28:19,787 INFO    SystemMonitor:17792 [interfaces.py:start():188] Started memory monitoring
+2024-07-28 22:28:19,793 INFO    SystemMonitor:17792 [interfaces.py:start():188] Started network monitoring
+2024-07-28 22:28:19,801 DEBUG   HandlerThread:17792 [system_info.py:_probe_git():137] Probing git
+2024-07-28 22:28:19,962 DEBUG   HandlerThread:17792 [system_info.py:_probe_git():145] Probing git done
+2024-07-28 22:28:19,962 DEBUG   HandlerThread:17792 [system_info.py:probe():200] Probing system done
+2024-07-28 22:28:19,962 DEBUG   HandlerThread:17792 [system_monitor.py:probe():223] {'os': 'Windows-10-10.0.22621-SP0', 'python': '3.11.0', 'heartbeatAt': '2024-07-28T20:28:19.786098', 'startedAt': '2024-07-28T20:28:19.129411', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': 'Gate_qbm/tests/wandb_multiple.ipynb', 'codePathLocal': None, 'root': 'C:/Users/ge84gac/Gate_qbm', 'git': {'remote': 'https://github.com/shivang-arora/Gate_qbm.git', 'commit': '4fe7018e522172637fa9f39320f6b38565185463'}, 'email': 'shivang.arora@tum.de', 'host': 'TUPHEQN-LPT-05', 'username': 'ge84gac', 'executable': 'C:\\Users\\ge84gac\\.conda\\envs\\qbmqsp\\python.exe', 'cpu_count': 8, 'cpu_count_logical': 16, 'cpu_freq': {'current': 2000.0, 'min': 0.0, 'max': 2000.0}, 'cpu_freq_per_core': [{'current': 2000.0, 'min': 0.0, 'max': 2000.0}], 'disk': {'/': {'total': 476.02050399780273, 'used': 193.71380615234375}}, 'memory': {'total': 15.313541412353516}}
+2024-07-28 22:28:19,962 INFO    HandlerThread:17792 [system_monitor.py:probe():224] Finished collecting system info
+2024-07-28 22:28:19,962 INFO    HandlerThread:17792 [system_monitor.py:probe():227] Publishing system info
+2024-07-28 22:28:19,962 DEBUG   HandlerThread:17792 [system_info.py:_save_conda():209] Saving list of conda packages installed into the current environment
+2024-07-28 22:28:20,636 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\conda-environment.yaml
+2024-07-28 22:28:24,596 DEBUG   HandlerThread:17792 [system_info.py:_save_conda():224] Saving conda packages done
+2024-07-28 22:28:24,599 INFO    HandlerThread:17792 [system_monitor.py:probe():229] Finished publishing system info
+2024-07-28 22:28:24,603 DEBUG   SenderThread:17792 [sender.py:send():379] send: files
+2024-07-28 22:28:24,604 INFO    SenderThread:17792 [sender.py:_save_file():1454] saving file wandb-metadata.json with policy now
+2024-07-28 22:28:24,604 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: status_report
+2024-07-28 22:28:24,678 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\conda-environment.yaml
+2024-07-28 22:28:24,679 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\wandb-metadata.json
+2024-07-28 22:28:24,811 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: python_packages
+2024-07-28 22:28:24,811 DEBUG   SenderThread:17792 [sender.py:send_request():406] send_request: python_packages
+2024-07-28 22:28:24,811 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: stop_status
+2024-07-28 22:28:24,811 DEBUG   SenderThread:17792 [sender.py:send_request():406] send_request: stop_status
+2024-07-28 22:28:24,818 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:28:25,096 DEBUG   SenderThread:17792 [sender.py:send():379] send: telemetry
+2024-07-28 22:28:25,096 DEBUG   SenderThread:17792 [sender.py:send():379] send: config
+2024-07-28 22:28:25,212 INFO    wandb-upload_0:17792 [upload_job.py:push():130] Uploaded file C:\Users\ge84gac\AppData\Local\Temp\tmp0jqttt4gwandb\67883jim-wandb-metadata.json
+2024-07-28 22:28:25,694 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:28:25,694 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\requirements.txt
+2024-07-28 22:28:25,816 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:28:26,809 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:28:27,708 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:28:27,827 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:28:28,841 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:28:29,806 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: status_report
+2024-07-28 22:28:29,845 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:28:30,854 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:28:31,859 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:28:32,880 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:28:33,772 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:28:33,899 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:28:34,820 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: status_report
+2024-07-28 22:28:34,903 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:28:35,791 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:28:35,914 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:28:36,799 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:28:36,924 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:28:37,941 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:28:38,818 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:28:38,950 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:28:39,815 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: stop_status
+2024-07-28 22:28:39,815 DEBUG   SenderThread:17792 [sender.py:send_request():406] send_request: stop_status
+2024-07-28 22:28:39,964 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:28:40,047 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: status_report
+2024-07-28 22:28:40,845 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:28:40,970 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:28:41,846 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:28:41,971 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:28:42,974 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:28:43,859 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:28:43,976 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:28:44,981 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:28:45,844 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: status_report
+2024-07-28 22:28:45,878 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:28:45,992 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:28:47,009 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:28:47,892 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:28:48,010 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:28:49,025 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:28:49,903 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:28:50,028 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:28:51,038 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:28:51,228 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: status_report
+2024-07-28 22:28:51,922 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:28:51,923 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\config.yaml
+2024-07-28 22:28:52,049 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:28:53,052 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:28:53,936 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:28:54,066 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:28:54,815 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: stop_status
+2024-07-28 22:28:54,817 DEBUG   SenderThread:17792 [sender.py:send_request():406] send_request: stop_status
+2024-07-28 22:28:55,069 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:28:55,951 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:28:56,085 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:28:56,428 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: status_report
+2024-07-28 22:28:57,097 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:28:57,962 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:28:58,100 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:28:59,103 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:28:59,992 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:29:00,116 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:29:01,128 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:29:01,805 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: status_report
+2024-07-28 22:29:02,009 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:29:02,131 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:29:03,143 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:29:04,015 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:29:04,156 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:29:05,165 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:29:06,035 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:29:06,177 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:29:06,960 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: status_report
+2024-07-28 22:29:07,179 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:29:08,041 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:29:08,189 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:29:09,182 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:29:09,823 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: stop_status
+2024-07-28 22:29:09,823 DEBUG   SenderThread:17792 [sender.py:send_request():406] send_request: stop_status
+2024-07-28 22:29:10,074 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:29:10,208 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:29:11,198 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:29:12,103 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:29:12,221 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:29:12,479 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: status_report
+2024-07-28 22:29:13,213 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:29:14,119 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:29:14,218 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:29:15,221 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:29:16,131 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:29:16,225 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:29:17,239 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:29:17,991 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: status_report
+2024-07-28 22:29:18,149 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:29:18,241 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:29:19,248 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:29:19,813 DEBUG   SystemMonitor:17792 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-07-28 22:29:19,814 DEBUG   SenderThread:17792 [sender.py:send():379] send: stats
+2024-07-28 22:29:20,174 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:29:20,253 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:29:21,257 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:29:22,180 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:29:22,264 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:29:23,317 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:29:23,407 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: status_report
+2024-07-28 22:29:24,191 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:29:24,332 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:29:24,835 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: stop_status
+2024-07-28 22:29:24,836 DEBUG   SenderThread:17792 [sender.py:send_request():406] send_request: stop_status
+2024-07-28 22:29:25,338 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:29:26,208 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:29:26,348 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:29:27,358 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:29:28,227 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:29:28,353 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:29:29,037 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: status_report
+2024-07-28 22:29:29,368 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:29:30,255 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:29:30,370 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:29:31,371 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:29:32,272 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:29:32,383 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:29:33,389 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:29:34,293 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:29:34,370 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: status_report
+2024-07-28 22:29:34,392 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:29:35,387 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:29:36,310 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:29:36,397 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:29:37,394 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:29:38,324 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:29:38,400 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:29:39,411 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:29:39,767 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: status_report
+2024-07-28 22:29:39,846 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: stop_status
+2024-07-28 22:29:39,846 DEBUG   SenderThread:17792 [sender.py:send_request():406] send_request: stop_status
+2024-07-28 22:29:40,326 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:29:40,420 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:29:41,336 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:29:41,432 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:29:42,348 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:29:42,443 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:29:43,456 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:29:44,364 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:29:44,468 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:29:44,959 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: status_report
+2024-07-28 22:29:45,491 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:29:46,391 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:29:46,507 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:29:47,521 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:29:48,411 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:29:48,536 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:29:49,544 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:29:49,819 DEBUG   SenderThread:17792 [sender.py:send():379] send: stats
+2024-07-28 22:29:49,962 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: status_report
+2024-07-28 22:29:50,421 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:29:50,549 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:29:51,560 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:29:52,442 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:29:52,570 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:29:53,577 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:29:54,458 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:29:54,567 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:29:54,867 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: stop_status
+2024-07-28 22:29:54,868 DEBUG   SenderThread:17792 [sender.py:send_request():406] send_request: stop_status
+2024-07-28 22:29:55,122 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: status_report
+2024-07-28 22:29:55,584 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:29:56,471 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:29:56,593 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:29:57,581 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:29:58,497 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:29:58,594 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:29:59,597 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:30:00,515 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:30:00,613 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:30:00,911 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: status_report
+2024-07-28 22:30:01,619 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:30:02,528 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:30:02,628 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:30:03,642 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:30:04,557 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:30:04,651 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:30:05,657 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:30:06,568 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: status_report
+2024-07-28 22:30:06,569 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:30:06,662 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:30:07,665 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:30:08,574 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:30:08,669 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:30:09,678 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:30:09,881 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: stop_status
+2024-07-28 22:30:09,882 DEBUG   SenderThread:17792 [sender.py:send_request():406] send_request: stop_status
+2024-07-28 22:30:10,592 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:30:10,687 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:30:11,662 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: status_report
+2024-07-28 22:30:11,676 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:30:12,599 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:30:12,683 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:30:13,685 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:30:14,609 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:30:14,687 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:30:15,684 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:30:16,616 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:30:16,713 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:30:16,779 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: status_report
+2024-07-28 22:30:17,727 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:30:18,625 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:30:18,736 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:30:19,745 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:30:19,823 DEBUG   SenderThread:17792 [sender.py:send():379] send: stats
+2024-07-28 22:30:20,645 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:30:20,751 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:30:21,744 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:30:22,340 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: status_report
+2024-07-28 22:30:22,653 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:30:22,746 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:30:23,756 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:30:24,665 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:30:24,773 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:30:24,915 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: stop_status
+2024-07-28 22:30:24,915 DEBUG   SenderThread:17792 [sender.py:send_request():406] send_request: stop_status
+2024-07-28 22:30:25,789 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:30:26,679 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:30:26,804 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:30:27,653 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: status_report
+2024-07-28 22:30:27,812 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:30:28,688 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:30:28,819 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:30:29,836 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:30:30,697 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:30:30,839 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:30:31,847 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:30:32,719 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:30:32,850 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:30:32,893 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: status_report
+2024-07-28 22:30:33,852 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:30:34,736 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:30:34,862 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:30:35,873 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:30:36,749 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:30:36,882 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:30:37,897 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:30:38,177 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: status_report
+2024-07-28 22:30:38,764 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:30:38,904 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:30:39,910 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:30:39,926 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: stop_status
+2024-07-28 22:30:39,926 DEBUG   SenderThread:17792 [sender.py:send_request():406] send_request: stop_status
+2024-07-28 22:30:40,778 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:30:40,926 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:30:41,931 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:30:42,792 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:30:42,934 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:30:43,480 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: status_report
+2024-07-28 22:30:43,942 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:30:44,806 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:30:44,943 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:30:45,948 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:30:46,817 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:30:46,960 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:30:47,968 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:30:48,503 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: status_report
+2024-07-28 22:30:48,841 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:30:49,036 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:30:49,837 DEBUG   SenderThread:17792 [sender.py:send():379] send: stats
+2024-07-28 22:30:49,854 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:30:49,996 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:30:50,869 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:30:51,004 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:30:51,879 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:30:52,006 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:30:52,895 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:30:53,006 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:30:54,020 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:30:54,144 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: status_report
+2024-07-28 22:30:54,945 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: stop_status
+2024-07-28 22:30:54,946 DEBUG   SenderThread:17792 [sender.py:send_request():406] send_request: stop_status
+2024-07-28 22:30:55,023 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:30:56,025 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:30:57,030 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:30:58,023 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:30:59,038 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:30:59,147 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: status_report
+2024-07-28 22:31:00,040 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:31:01,053 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:31:02,055 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:31:03,071 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:31:04,072 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:31:05,075 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:31:05,123 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: status_report
+2024-07-28 22:31:06,077 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:31:07,077 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:31:08,089 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:31:09,099 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:31:09,981 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: stop_status
+2024-07-28 22:31:09,981 DEBUG   SenderThread:17792 [sender.py:send_request():406] send_request: stop_status
+2024-07-28 22:31:10,099 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:31:10,163 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: status_report
+2024-07-28 22:31:11,103 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:31:12,106 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:31:13,119 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:31:14,031 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:31:14,127 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:31:15,145 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:31:16,038 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:31:16,144 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:31:16,160 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: status_report
+2024-07-28 22:31:17,169 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:31:18,076 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:31:18,183 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:31:19,196 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:31:19,839 DEBUG   SenderThread:17792 [sender.py:send():379] send: stats
+2024-07-28 22:31:20,108 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:31:20,198 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:31:21,182 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: status_report
+2024-07-28 22:31:21,213 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:31:22,131 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:31:22,220 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:31:23,225 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:31:24,153 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:31:24,227 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:31:24,970 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: stop_status
+2024-07-28 22:31:24,971 DEBUG   SenderThread:17792 [sender.py:send_request():406] send_request: stop_status
+2024-07-28 22:31:25,229 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:31:26,171 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:31:26,238 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:31:26,397 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: status_report
+2024-07-28 22:31:27,253 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:31:28,196 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:31:28,259 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:31:29,269 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:31:30,217 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:31:30,280 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:31:31,280 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:31:31,572 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: status_report
+2024-07-28 22:31:32,233 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:31:32,280 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:31:33,274 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:31:34,271 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:31:34,278 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:31:35,283 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:31:36,297 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:31:36,298 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:31:36,611 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: status_report
+2024-07-28 22:31:37,289 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:31:38,316 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:31:38,316 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:31:39,305 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:31:39,979 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: stop_status
+2024-07-28 22:31:39,980 DEBUG   SenderThread:17792 [sender.py:send_request():406] send_request: stop_status
+2024-07-28 22:31:40,336 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:31:40,337 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:31:41,324 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:31:41,646 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: status_report
+2024-07-28 22:31:42,358 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:31:42,358 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:31:43,356 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:31:44,368 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:31:44,384 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:31:45,384 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:31:46,407 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:31:46,407 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:31:46,947 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: status_report
+2024-07-28 22:31:47,405 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:31:48,439 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:31:48,440 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:31:49,420 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:31:49,841 DEBUG   SenderThread:17792 [sender.py:send():379] send: stats
+2024-07-28 22:31:50,433 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:31:50,465 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:31:51,443 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:31:52,014 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: status_report
+2024-07-28 22:31:52,459 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:31:52,475 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:31:53,471 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:31:54,481 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:31:54,513 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:31:54,987 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: stop_status
+2024-07-28 22:31:54,987 DEBUG   SenderThread:17792 [sender.py:send_request():406] send_request: stop_status
+2024-07-28 22:31:55,497 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:31:56,529 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:31:56,530 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:31:57,375 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: status_report
+2024-07-28 22:31:57,516 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:31:58,530 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:31:58,561 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:31:59,532 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:32:00,545 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:32:00,593 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:32:01,563 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:32:02,514 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: status_report
+2024-07-28 22:32:02,577 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:32:02,608 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:32:03,604 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:32:04,634 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:32:04,634 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:32:05,625 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:32:06,628 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:32:06,668 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:32:07,553 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: status_report
+2024-07-28 22:32:07,635 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:32:08,643 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:32:08,687 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:32:09,645 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:32:09,994 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: stop_status
+2024-07-28 22:32:09,995 DEBUG   SenderThread:17792 [sender.py:send_request():406] send_request: stop_status
+2024-07-28 22:32:10,649 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:32:10,719 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:32:11,651 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:32:12,655 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:32:12,753 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: status_report
+2024-07-28 22:32:12,754 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:32:13,653 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:32:14,656 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:32:14,778 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:32:15,659 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:32:16,675 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:32:16,805 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:32:17,682 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:32:18,120 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: status_report
+2024-07-28 22:32:18,694 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:32:18,823 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:32:19,699 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:32:19,827 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:32:19,843 DEBUG   SenderThread:17792 [sender.py:send():379] send: stats
+2024-07-28 22:32:20,706 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:32:20,841 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:32:21,710 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:32:22,725 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:32:22,865 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:32:23,354 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: status_report
+2024-07-28 22:32:23,734 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:32:24,736 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:32:24,888 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:32:24,990 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: stop_status
+2024-07-28 22:32:24,990 DEBUG   SenderThread:17792 [sender.py:send_request():406] send_request: stop_status
+2024-07-28 22:32:25,751 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:32:26,754 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:32:26,910 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:32:27,759 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:32:28,610 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: status_report
+2024-07-28 22:32:28,765 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:32:28,932 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:32:29,767 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:32:30,769 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:32:30,962 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:32:31,778 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:32:32,782 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:32:32,985 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:32:33,791 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:32:33,829 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: status_report
+2024-07-28 22:32:34,804 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:32:34,991 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:32:35,813 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:32:36,814 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:32:37,010 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:32:37,820 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:32:38,834 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:32:38,869 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: status_report
+2024-07-28 22:32:39,034 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:32:39,844 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:32:40,002 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: stop_status
+2024-07-28 22:32:40,003 DEBUG   SenderThread:17792 [sender.py:send_request():406] send_request: stop_status
+2024-07-28 22:32:40,847 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:32:41,063 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:32:41,856 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:32:42,070 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:32:42,860 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:32:43,875 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:32:44,102 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:32:44,667 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: status_report
+2024-07-28 22:32:44,888 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:32:45,893 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:32:46,129 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:32:46,902 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:32:47,914 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:32:48,153 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:32:48,921 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:32:49,850 DEBUG   SenderThread:17792 [sender.py:send():379] send: stats
+2024-07-28 22:32:49,850 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: status_report
+2024-07-28 22:32:49,927 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:32:50,193 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:32:50,932 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:32:51,947 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:32:52,214 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:32:52,953 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:32:53,964 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:32:54,234 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:32:54,972 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:32:55,019 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: stop_status
+2024-07-28 22:32:55,019 DEBUG   SenderThread:17792 [sender.py:send_request():406] send_request: stop_status
+2024-07-28 22:32:55,243 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: status_report
+2024-07-28 22:32:55,976 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:32:56,246 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:32:56,979 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:32:57,995 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:32:58,282 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:32:59,006 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:33:00,010 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:33:00,324 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:33:00,372 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: status_report
+2024-07-28 22:33:01,025 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:33:02,032 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:33:02,351 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:33:03,039 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:33:04,056 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:33:04,368 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:33:05,067 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:33:05,400 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: status_report
+2024-07-28 22:33:06,075 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:33:06,410 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:33:07,089 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:33:08,099 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:33:08,431 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:33:09,108 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:33:10,033 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: stop_status
+2024-07-28 22:33:10,034 DEBUG   SenderThread:17792 [sender.py:send_request():406] send_request: stop_status
+2024-07-28 22:33:10,107 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:33:10,455 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:33:11,117 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:33:11,399 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: status_report
+2024-07-28 22:33:12,134 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:33:12,478 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:33:13,139 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:33:14,150 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:33:14,496 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:33:15,159 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:33:16,198 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:33:16,408 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: status_report
+2024-07-28 22:33:16,514 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:33:17,184 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:33:18,200 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:33:18,539 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:33:19,205 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:33:19,855 DEBUG   SenderThread:17792 [sender.py:send():379] send: stats
+2024-07-28 22:33:20,217 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:33:20,560 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:33:21,219 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:33:21,409 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: status_report
+2024-07-28 22:33:22,221 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:33:22,583 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:33:23,232 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:33:23,600 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:33:24,246 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:33:24,606 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:33:25,032 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: stop_status
+2024-07-28 22:33:25,033 DEBUG   SenderThread:17792 [sender.py:send_request():406] send_request: stop_status
+2024-07-28 22:33:25,249 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:33:25,631 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:33:26,236 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:33:26,423 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: status_report
+2024-07-28 22:33:26,647 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:33:27,246 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:33:28,254 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:33:29,264 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:33:30,277 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:33:31,279 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:33:31,429 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: status_report
+2024-07-28 22:33:32,286 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:33:33,287 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:33:34,288 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:33:35,293 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:33:36,307 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:33:37,323 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:33:37,341 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: status_report
+2024-07-28 22:33:37,756 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:33:38,325 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:33:39,335 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:33:40,045 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: stop_status
+2024-07-28 22:33:40,045 DEBUG   SenderThread:17792 [sender.py:send_request():406] send_request: stop_status
+2024-07-28 22:33:40,341 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:33:40,805 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:33:41,356 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:33:41,829 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:33:42,364 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:33:42,389 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: status_report
+2024-07-28 22:33:42,832 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:33:43,381 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:33:44,388 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:33:44,862 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:33:45,401 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:33:46,405 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:33:46,891 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:33:47,411 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:33:48,197 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: status_report
+2024-07-28 22:33:48,425 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:33:48,933 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:33:49,436 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:33:49,864 DEBUG   SenderThread:17792 [sender.py:send():379] send: stats
+2024-07-28 22:33:50,428 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:33:50,954 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:33:51,429 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:33:52,443 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:33:52,994 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:33:53,453 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:33:54,078 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: status_report
+2024-07-28 22:33:54,469 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:33:55,005 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:33:55,052 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: stop_status
+2024-07-28 22:33:55,052 DEBUG   SenderThread:17792 [sender.py:send_request():406] send_request: stop_status
+2024-07-28 22:33:55,475 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:33:56,488 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:33:57,046 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:33:57,511 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:33:58,538 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:33:59,073 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:33:59,113 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: status_report
+2024-07-28 22:33:59,546 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:34:00,553 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:34:01,085 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:34:01,568 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:34:02,577 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:34:03,119 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:34:03,585 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:34:04,145 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:34:04,598 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:34:04,821 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: status_report
+2024-07-28 22:34:05,611 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:34:06,169 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:34:06,618 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:34:07,620 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:34:08,195 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:34:08,634 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:34:09,642 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:34:09,831 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: status_report
+2024-07-28 22:34:10,068 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: stop_status
+2024-07-28 22:34:10,068 DEBUG   SenderThread:17792 [sender.py:send_request():406] send_request: stop_status
+2024-07-28 22:34:10,231 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:34:10,644 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:34:11,646 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:34:12,249 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:34:12,650 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:34:13,662 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:34:14,278 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:34:14,670 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:34:15,475 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: status_report
+2024-07-28 22:34:15,678 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:34:16,314 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:34:16,686 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:34:17,687 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:34:18,337 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:34:18,696 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:34:19,715 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:34:19,872 DEBUG   SenderThread:17792 [sender.py:send():379] send: stats
+2024-07-28 22:34:20,362 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:34:20,490 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: status_report
+2024-07-28 22:34:20,727 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:34:21,741 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:34:22,388 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:34:22,745 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:34:23,752 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:34:24,418 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:34:24,755 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:34:25,084 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: stop_status
+2024-07-28 22:34:25,085 DEBUG   SenderThread:17792 [sender.py:send_request():406] send_request: stop_status
+2024-07-28 22:34:25,503 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: status_report
+2024-07-28 22:34:25,769 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:34:26,452 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:34:26,775 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:34:27,785 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:34:28,485 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:34:28,838 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:34:29,852 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:34:30,525 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: status_report
+2024-07-28 22:34:30,526 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:34:30,863 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:34:31,875 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:34:32,551 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:34:32,869 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:34:33,882 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:34:34,578 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:34:34,885 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:34:35,894 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:34:36,128 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: status_report
+2024-07-28 22:34:36,600 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:34:36,900 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:34:37,923 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:34:38,623 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:34:38,932 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:34:39,624 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:34:39,938 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:34:40,110 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: stop_status
+2024-07-28 22:34:40,110 DEBUG   SenderThread:17792 [sender.py:send_request():406] send_request: stop_status
+2024-07-28 22:34:40,651 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:34:40,950 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:34:41,376 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: status_report
+2024-07-28 22:34:41,953 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:34:42,675 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:34:42,959 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:34:43,964 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:34:44,695 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:34:44,969 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:34:46,006 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:34:46,506 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: status_report
+2024-07-28 22:34:46,732 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:34:47,016 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:34:48,023 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:34:48,748 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:34:49,031 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:34:49,878 DEBUG   SenderThread:17792 [sender.py:send():379] send: stats
+2024-07-28 22:34:50,034 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:34:50,777 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:34:51,041 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:34:51,541 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: status_report
+2024-07-28 22:34:52,045 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:34:52,803 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:34:53,046 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:34:54,063 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:34:54,834 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:34:55,071 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:34:55,144 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: stop_status
+2024-07-28 22:34:55,144 DEBUG   SenderThread:17792 [sender.py:send_request():406] send_request: stop_status
+2024-07-28 22:34:56,075 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:34:56,709 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: status_report
+2024-07-28 22:34:56,858 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:34:57,091 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:34:58,101 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:34:58,908 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:34:59,108 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:35:00,099 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:35:00,942 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:35:01,107 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:35:02,119 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:35:02,544 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: status_report
+2024-07-28 22:35:02,954 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:35:03,122 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:35:04,127 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:35:04,984 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:35:05,131 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:35:06,136 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:35:07,007 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:35:07,142 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:35:07,807 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: status_report
+2024-07-28 22:35:08,148 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:35:09,027 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:35:09,160 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:35:10,152 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: stop_status
+2024-07-28 22:35:10,153 DEBUG   SenderThread:17792 [sender.py:send_request():406] send_request: stop_status
+2024-07-28 22:35:10,167 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:35:11,055 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:35:11,174 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:35:12,188 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:35:13,071 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: status_report
+2024-07-28 22:35:13,073 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:35:13,194 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:35:14,214 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:35:15,107 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:35:15,219 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:35:16,206 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:35:17,129 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:35:17,221 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:35:18,238 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:35:18,835 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: status_report
+2024-07-28 22:35:19,152 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:35:19,241 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:35:19,886 DEBUG   SenderThread:17792 [sender.py:send():379] send: stats
+2024-07-28 22:35:20,244 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:35:21,175 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:35:21,251 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:35:22,263 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:35:23,194 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:35:23,275 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:35:24,018 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: status_report
+2024-07-28 22:35:24,286 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:35:25,158 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: stop_status
+2024-07-28 22:35:25,159 DEBUG   SenderThread:17792 [sender.py:send_request():406] send_request: stop_status
+2024-07-28 22:35:25,231 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:35:25,302 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:35:26,311 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:35:27,261 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:35:27,306 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:35:28,270 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:35:28,316 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:35:29,327 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:35:29,499 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: status_report
+2024-07-28 22:35:30,294 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:35:30,327 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:35:31,323 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:35:32,320 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:35:32,335 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:35:33,341 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:35:34,340 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:35:34,357 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:35:35,245 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: status_report
+2024-07-28 22:35:35,371 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:35:36,366 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:35:36,381 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:35:37,389 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:35:38,400 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:35:38,401 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:35:39,415 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:35:40,161 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: stop_status
+2024-07-28 22:35:40,161 DEBUG   SenderThread:17792 [sender.py:send_request():406] send_request: stop_status
+2024-07-28 22:35:40,411 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: status_report
+2024-07-28 22:35:40,434 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:35:40,435 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:35:41,443 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:35:42,439 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:35:42,455 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:35:43,474 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:35:44,476 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:35:44,497 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:35:45,495 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:35:45,497 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:35:45,623 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: status_report
+2024-07-28 22:35:46,498 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:35:46,498 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:35:47,513 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:35:47,524 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:35:48,514 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:35:49,507 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:35:49,900 DEBUG   SenderThread:17792 [sender.py:send():379] send: stats
+2024-07-28 22:35:50,514 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:35:50,623 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: status_report
+2024-07-28 22:35:51,521 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:35:52,537 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:35:53,547 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:35:54,533 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:35:55,174 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: stop_status
+2024-07-28 22:35:55,175 DEBUG   SenderThread:17792 [sender.py:send_request():406] send_request: stop_status
+2024-07-28 22:35:55,551 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:35:55,630 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: status_report
+2024-07-28 22:35:56,552 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:35:57,557 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:35:58,565 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:35:59,566 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:36:00,577 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:36:00,641 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: status_report
+2024-07-28 22:36:01,582 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:36:01,654 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:36:02,595 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:36:03,598 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:36:04,614 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:36:04,697 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:36:05,615 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:36:05,648 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: status_report
+2024-07-28 22:36:05,712 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:36:06,630 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:36:06,722 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:36:07,643 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:36:08,650 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:36:08,759 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:36:09,651 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:36:10,185 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: stop_status
+2024-07-28 22:36:10,185 DEBUG   SenderThread:17792 [sender.py:send_request():406] send_request: stop_status
+2024-07-28 22:36:10,657 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:36:10,658 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: status_report
+2024-07-28 22:36:10,784 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:36:11,671 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:36:12,673 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:36:12,798 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:36:13,686 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:36:14,688 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:36:14,839 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:36:15,669 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: status_report
+2024-07-28 22:36:15,700 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:36:16,705 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:36:16,864 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:36:17,715 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:36:18,718 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:36:18,876 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:36:19,710 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:36:19,915 DEBUG   SenderThread:17792 [sender.py:send():379] send: stats
+2024-07-28 22:36:20,688 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: status_report
+2024-07-28 22:36:20,717 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:36:20,920 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:36:21,719 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:36:22,726 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:36:22,949 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:36:23,737 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:36:24,745 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:36:24,965 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:36:25,188 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: stop_status
+2024-07-28 22:36:25,189 DEBUG   SenderThread:17792 [sender.py:send_request():406] send_request: stop_status
+2024-07-28 22:36:25,690 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: status_report
+2024-07-28 22:36:25,753 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:36:26,757 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:36:26,974 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:36:27,760 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:36:28,767 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:36:29,001 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:36:29,776 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:36:30,701 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: status_report
+2024-07-28 22:36:30,780 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:36:31,029 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:36:31,791 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:36:32,799 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:36:33,052 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:36:33,809 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:36:34,813 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:36:35,084 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:36:35,714 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: status_report
+2024-07-28 22:36:35,820 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:36:36,837 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:36:37,106 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:36:37,850 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:36:38,862 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:36:39,131 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:36:39,864 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:36:40,183 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: stop_status
+2024-07-28 22:36:40,184 DEBUG   SenderThread:17792 [sender.py:send_request():406] send_request: stop_status
+2024-07-28 22:36:40,739 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: status_report
+2024-07-28 22:36:40,866 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:36:41,150 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:36:41,878 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:36:42,892 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:36:43,192 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:36:43,896 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:36:44,907 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:36:45,221 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:36:45,745 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: status_report
+2024-07-28 22:36:45,917 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:36:46,924 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:36:47,257 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:36:47,936 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:36:48,941 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:36:49,287 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:36:49,918 DEBUG   SenderThread:17792 [sender.py:send():379] send: stats
+2024-07-28 22:36:49,951 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:36:50,749 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: status_report
+2024-07-28 22:36:50,968 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:36:51,314 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:36:51,958 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:36:52,334 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:36:52,975 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:36:53,989 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:36:54,357 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:36:54,992 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:36:55,185 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: stop_status
+2024-07-28 22:36:55,186 DEBUG   SenderThread:17792 [sender.py:send_request():406] send_request: stop_status
+2024-07-28 22:36:55,755 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: status_report
+2024-07-28 22:36:56,006 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:36:56,382 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:36:57,010 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:36:58,023 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:36:58,398 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:36:59,034 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:37:00,042 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:37:00,427 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:37:00,791 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: status_report
+2024-07-28 22:37:01,051 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:37:01,431 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:37:02,064 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:37:02,450 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:37:03,067 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:37:04,079 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:37:04,474 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:37:05,087 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:37:05,798 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: status_report
+2024-07-28 22:37:06,103 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:37:06,503 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:37:07,104 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:37:08,110 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:37:08,530 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:37:09,106 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:37:10,122 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:37:10,184 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: stop_status
+2024-07-28 22:37:10,185 DEBUG   SenderThread:17792 [sender.py:send_request():406] send_request: stop_status
+2024-07-28 22:37:10,570 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:37:10,808 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: status_report
+2024-07-28 22:37:11,139 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:37:12,154 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:37:12,582 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:37:13,157 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:37:14,170 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:37:14,605 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:37:15,182 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:37:15,810 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: status_report
+2024-07-28 22:37:16,233 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:37:16,630 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:37:17,234 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:37:18,237 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:37:18,669 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:37:19,251 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:37:19,934 DEBUG   SenderThread:17792 [sender.py:send():379] send: stats
+2024-07-28 22:37:20,311 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:37:20,698 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:37:20,824 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: status_report
+2024-07-28 22:37:21,315 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:37:22,316 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:37:22,717 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:37:23,327 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:37:24,328 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:37:24,755 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:37:25,189 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: stop_status
+2024-07-28 22:37:25,190 DEBUG   SenderThread:17792 [sender.py:send_request():406] send_request: stop_status
+2024-07-28 22:37:25,330 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:37:25,836 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: status_report
+2024-07-28 22:37:26,339 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:37:26,756 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:37:27,353 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:37:28,368 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:37:28,788 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:37:29,371 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:37:30,378 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:37:30,802 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:37:30,849 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: status_report
+2024-07-28 22:37:31,391 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:37:32,401 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:37:32,834 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:37:33,499 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:37:34,503 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:37:34,858 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:37:35,506 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:37:35,853 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: status_report
+2024-07-28 22:37:36,517 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:37:36,881 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:37:37,534 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:37:38,549 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:37:38,898 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:37:39,564 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:37:40,206 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: stop_status
+2024-07-28 22:37:40,207 DEBUG   SenderThread:17792 [sender.py:send_request():406] send_request: stop_status
+2024-07-28 22:37:40,572 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:37:40,855 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: status_report
+2024-07-28 22:37:40,922 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:37:41,575 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:37:42,577 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:37:42,941 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:37:43,566 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:37:44,577 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:37:44,976 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:37:45,566 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:37:45,868 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: status_report
+2024-07-28 22:37:46,575 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:37:47,006 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:37:47,585 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:37:48,592 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:37:49,019 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:37:49,600 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:37:49,940 DEBUG   SenderThread:17792 [sender.py:send():379] send: stats
+2024-07-28 22:37:50,608 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:37:50,874 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: status_report
+2024-07-28 22:37:51,053 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:37:51,614 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:37:52,624 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:37:53,088 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:37:53,620 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:37:54,627 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:37:55,119 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:37:55,227 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: stop_status
+2024-07-28 22:37:55,227 DEBUG   SenderThread:17792 [sender.py:send_request():406] send_request: stop_status
+2024-07-28 22:37:55,640 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:37:55,876 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: status_report
+2024-07-28 22:37:56,642 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:37:57,145 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:37:57,649 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:37:58,662 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:37:59,168 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:37:59,673 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:38:00,674 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:38:00,886 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: status_report
+2024-07-28 22:38:01,493 DEBUG   SenderThread:17792 [sender.py:send():379] send: telemetry
+2024-07-28 22:38:01,493 DEBUG   SenderThread:17792 [sender.py:send():379] send: run
+2024-07-28 22:38:01,496 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: partial_history
+2024-07-28 22:38:01,498 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: server_info
+2024-07-28 22:38:01,691 INFO    SenderThread:17792 [sender.py:send_run():1035] updated run: zv9xrbb0
+2024-07-28 22:38:01,691 DEBUG   SenderThread:17792 [sender.py:send():379] send: history
+2024-07-28 22:38:01,691 DEBUG   SenderThread:17792 [sender.py:send_request():406] send_request: summary_record
+2024-07-28 22:38:01,692 INFO    SenderThread:17792 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-07-28 22:38:01,692 DEBUG   SenderThread:17792 [sender.py:send():379] send: telemetry
+2024-07-28 22:38:01,692 DEBUG   SenderThread:17792 [sender.py:send_request():406] send_request: server_info
+2024-07-28 22:38:01,848 DEBUG   SenderThread:17792 [sender.py:send():379] send: exit
+2024-07-28 22:38:01,848 INFO    SenderThread:17792 [sender.py:send_exit():586] handling exit code: 0
+2024-07-28 22:38:01,848 INFO    SenderThread:17792 [sender.py:send_exit():588] handling runtime: 582
+2024-07-28 22:38:01,849 INFO    SenderThread:17792 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-07-28 22:38:01,849 INFO    SenderThread:17792 [sender.py:send_exit():594] send defer
+2024-07-28 22:38:01,849 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: defer
+2024-07-28 22:38:01,849 INFO    HandlerThread:17792 [handler.py:handle_request_defer():184] handle defer: 0
+2024-07-28 22:38:01,849 DEBUG   SenderThread:17792 [sender.py:send_request():406] send_request: defer
+2024-07-28 22:38:01,850 INFO    SenderThread:17792 [sender.py:send_request_defer():610] handle sender defer: 0
+2024-07-28 22:38:01,850 INFO    SenderThread:17792 [sender.py:transition_state():614] send defer: 1
+2024-07-28 22:38:01,850 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: defer
+2024-07-28 22:38:01,850 INFO    HandlerThread:17792 [handler.py:handle_request_defer():184] handle defer: 1
+2024-07-28 22:38:01,850 DEBUG   SenderThread:17792 [sender.py:send_request():406] send_request: defer
+2024-07-28 22:38:01,850 INFO    SenderThread:17792 [sender.py:send_request_defer():610] handle sender defer: 1
+2024-07-28 22:38:01,850 INFO    SenderThread:17792 [sender.py:transition_state():614] send defer: 2
+2024-07-28 22:38:01,850 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: defer
+2024-07-28 22:38:01,850 INFO    HandlerThread:17792 [handler.py:handle_request_defer():184] handle defer: 2
+2024-07-28 22:38:01,850 INFO    HandlerThread:17792 [system_monitor.py:finish():203] Stopping system monitor
+2024-07-28 22:38:01,851 DEBUG   SystemMonitor:17792 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-07-28 22:38:01,851 INFO    HandlerThread:17792 [interfaces.py:finish():200] Joined cpu monitor
+2024-07-28 22:38:01,851 DEBUG   SystemMonitor:17792 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-07-28 22:38:01,851 INFO    HandlerThread:17792 [interfaces.py:finish():200] Joined disk monitor
+2024-07-28 22:38:01,852 INFO    HandlerThread:17792 [interfaces.py:finish():200] Joined memory monitor
+2024-07-28 22:38:01,852 INFO    HandlerThread:17792 [interfaces.py:finish():200] Joined network monitor
+2024-07-28 22:38:01,853 DEBUG   SenderThread:17792 [sender.py:send_request():406] send_request: defer
+2024-07-28 22:38:01,853 INFO    SenderThread:17792 [sender.py:send_request_defer():610] handle sender defer: 2
+2024-07-28 22:38:01,853 INFO    SenderThread:17792 [sender.py:transition_state():614] send defer: 3
+2024-07-28 22:38:01,853 DEBUG   SenderThread:17792 [sender.py:send():379] send: stats
+2024-07-28 22:38:01,853 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: defer
+2024-07-28 22:38:01,854 INFO    HandlerThread:17792 [handler.py:handle_request_defer():184] handle defer: 3
+2024-07-28 22:38:01,854 DEBUG   SenderThread:17792 [sender.py:send_request():406] send_request: defer
+2024-07-28 22:38:01,854 INFO    SenderThread:17792 [sender.py:send_request_defer():610] handle sender defer: 3
+2024-07-28 22:38:01,854 INFO    SenderThread:17792 [sender.py:transition_state():614] send defer: 4
+2024-07-28 22:38:01,854 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: defer
+2024-07-28 22:38:01,854 INFO    HandlerThread:17792 [handler.py:handle_request_defer():184] handle defer: 4
+2024-07-28 22:38:01,854 DEBUG   SenderThread:17792 [sender.py:send_request():406] send_request: defer
+2024-07-28 22:38:01,854 INFO    SenderThread:17792 [sender.py:send_request_defer():610] handle sender defer: 4
+2024-07-28 22:38:01,854 INFO    SenderThread:17792 [sender.py:transition_state():614] send defer: 5
+2024-07-28 22:38:01,855 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: defer
+2024-07-28 22:38:01,855 INFO    HandlerThread:17792 [handler.py:handle_request_defer():184] handle defer: 5
+2024-07-28 22:38:01,855 DEBUG   SenderThread:17792 [sender.py:send():379] send: summary
+2024-07-28 22:38:01,856 INFO    SenderThread:17792 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-07-28 22:38:01,856 DEBUG   SenderThread:17792 [sender.py:send_request():406] send_request: defer
+2024-07-28 22:38:01,856 INFO    SenderThread:17792 [sender.py:send_request_defer():610] handle sender defer: 5
+2024-07-28 22:38:01,856 INFO    SenderThread:17792 [sender.py:transition_state():614] send defer: 6
+2024-07-28 22:38:01,856 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: defer
+2024-07-28 22:38:01,856 INFO    HandlerThread:17792 [handler.py:handle_request_defer():184] handle defer: 6
+2024-07-28 22:38:01,856 DEBUG   SenderThread:17792 [sender.py:send_request():406] send_request: defer
+2024-07-28 22:38:01,856 INFO    SenderThread:17792 [sender.py:send_request_defer():610] handle sender defer: 6
+2024-07-28 22:38:01,858 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: status_report
+2024-07-28 22:38:02,038 INFO    SenderThread:17792 [sender.py:transition_state():614] send defer: 7
+2024-07-28 22:38:02,038 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: defer
+2024-07-28 22:38:02,038 INFO    HandlerThread:17792 [handler.py:handle_request_defer():184] handle defer: 7
+2024-07-28 22:38:02,039 DEBUG   SenderThread:17792 [sender.py:send_request():406] send_request: defer
+2024-07-28 22:38:02,039 INFO    SenderThread:17792 [sender.py:send_request_defer():610] handle sender defer: 7
+2024-07-28 22:38:02,197 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:38:02,197 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\config.yaml
+2024-07-28 22:38:02,197 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\wandb-summary.json
+2024-07-28 22:38:02,860 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: poll_exit
+2024-07-28 22:38:03,204 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:38:04,211 INFO    Thread-16 :17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:38:04,412 INFO    SenderThread:17792 [sender.py:transition_state():614] send defer: 8
+2024-07-28 22:38:04,413 DEBUG   SenderThread:17792 [sender.py:send_request():406] send_request: poll_exit
+2024-07-28 22:38:04,413 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: defer
+2024-07-28 22:38:04,413 INFO    HandlerThread:17792 [handler.py:handle_request_defer():184] handle defer: 8
+2024-07-28 22:38:04,414 DEBUG   SenderThread:17792 [sender.py:send_request():406] send_request: defer
+2024-07-28 22:38:04,414 INFO    SenderThread:17792 [sender.py:send_request_defer():610] handle sender defer: 8
+2024-07-28 22:38:04,414 INFO    SenderThread:17792 [sender.py:transition_state():614] send defer: 9
+2024-07-28 22:38:04,414 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: defer
+2024-07-28 22:38:04,414 INFO    HandlerThread:17792 [handler.py:handle_request_defer():184] handle defer: 9
+2024-07-28 22:38:04,414 DEBUG   SenderThread:17792 [sender.py:send_request():406] send_request: defer
+2024-07-28 22:38:04,414 INFO    SenderThread:17792 [sender.py:send_request_defer():610] handle sender defer: 9
+2024-07-28 22:38:04,414 INFO    SenderThread:17792 [dir_watcher.py:finish():358] shutting down directory watcher
+2024-07-28 22:38:04,862 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: poll_exit
+2024-07-28 22:38:05,227 INFO    SenderThread:17792 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:38:05,228 INFO    SenderThread:17792 [dir_watcher.py:finish():388] scan: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files
+2024-07-28 22:38:05,228 INFO    SenderThread:17792 [dir_watcher.py:finish():402] scan save: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\conda-environment.yaml conda-environment.yaml
+2024-07-28 22:38:05,228 INFO    SenderThread:17792 [dir_watcher.py:finish():402] scan save: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\config.yaml config.yaml
+2024-07-28 22:38:05,230 INFO    SenderThread:17792 [dir_watcher.py:finish():402] scan save: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log output.log
+2024-07-28 22:38:05,233 INFO    SenderThread:17792 [dir_watcher.py:finish():402] scan save: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\requirements.txt requirements.txt
+2024-07-28 22:38:05,236 INFO    SenderThread:17792 [dir_watcher.py:finish():402] scan save: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\wandb-metadata.json wandb-metadata.json
+2024-07-28 22:38:05,236 INFO    SenderThread:17792 [dir_watcher.py:finish():402] scan save: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\wandb-summary.json wandb-summary.json
+2024-07-28 22:38:05,238 INFO    SenderThread:17792 [sender.py:transition_state():614] send defer: 10
+2024-07-28 22:38:05,240 DEBUG   SenderThread:17792 [sender.py:send_request():406] send_request: poll_exit
+2024-07-28 22:38:05,240 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: defer
+2024-07-28 22:38:05,241 INFO    HandlerThread:17792 [handler.py:handle_request_defer():184] handle defer: 10
+2024-07-28 22:38:05,242 DEBUG   SenderThread:17792 [sender.py:send_request():406] send_request: defer
+2024-07-28 22:38:05,242 INFO    SenderThread:17792 [sender.py:send_request_defer():610] handle sender defer: 10
+2024-07-28 22:38:05,242 INFO    SenderThread:17792 [file_pusher.py:finish():169] shutting down file pusher
+2024-07-28 22:38:05,748 INFO    wandb-upload_1:17792 [upload_job.py:push():130] Uploaded file C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\config.yaml
+2024-07-28 22:38:05,850 INFO    wandb-upload_0:17792 [upload_job.py:push():130] Uploaded file C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\conda-environment.yaml
+2024-07-28 22:38:05,876 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: poll_exit
+2024-07-28 22:38:05,877 DEBUG   SenderThread:17792 [sender.py:send_request():406] send_request: poll_exit
+2024-07-28 22:38:05,962 INFO    wandb-upload_2:17792 [upload_job.py:push():130] Uploaded file C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\output.log
+2024-07-28 22:38:05,995 INFO    wandb-upload_3:17792 [upload_job.py:push():130] Uploaded file C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\requirements.txt
+2024-07-28 22:38:06,011 INFO    wandb-upload_4:17792 [upload_job.py:push():130] Uploaded file C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\files\wandb-summary.json
+2024-07-28 22:38:06,224 INFO    Thread-15 (_thread_body):17792 [sender.py:transition_state():614] send defer: 11
+2024-07-28 22:38:06,225 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: defer
+2024-07-28 22:38:06,225 INFO    HandlerThread:17792 [handler.py:handle_request_defer():184] handle defer: 11
+2024-07-28 22:38:06,225 DEBUG   SenderThread:17792 [sender.py:send_request():406] send_request: defer
+2024-07-28 22:38:06,225 INFO    SenderThread:17792 [sender.py:send_request_defer():610] handle sender defer: 11
+2024-07-28 22:38:06,225 INFO    SenderThread:17792 [file_pusher.py:join():175] waiting for file pusher
+2024-07-28 22:38:06,226 INFO    SenderThread:17792 [sender.py:transition_state():614] send defer: 12
+2024-07-28 22:38:06,226 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: defer
+2024-07-28 22:38:06,227 INFO    HandlerThread:17792 [handler.py:handle_request_defer():184] handle defer: 12
+2024-07-28 22:38:06,227 DEBUG   SenderThread:17792 [sender.py:send_request():406] send_request: defer
+2024-07-28 22:38:06,227 INFO    SenderThread:17792 [sender.py:send_request_defer():610] handle sender defer: 12
+2024-07-28 22:38:06,227 INFO    SenderThread:17792 [file_stream.py:finish():601] file stream finish called
+2024-07-28 22:38:06,883 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: poll_exit
+2024-07-28 22:38:07,320 INFO    SenderThread:17792 [file_stream.py:finish():605] file stream finish is done
+2024-07-28 22:38:07,320 INFO    SenderThread:17792 [sender.py:transition_state():614] send defer: 13
+2024-07-28 22:38:07,320 DEBUG   SenderThread:17792 [sender.py:send_request():406] send_request: poll_exit
+2024-07-28 22:38:07,320 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: defer
+2024-07-28 22:38:07,320 INFO    HandlerThread:17792 [handler.py:handle_request_defer():184] handle defer: 13
+2024-07-28 22:38:07,321 DEBUG   SenderThread:17792 [sender.py:send_request():406] send_request: defer
+2024-07-28 22:38:07,321 INFO    SenderThread:17792 [sender.py:send_request_defer():610] handle sender defer: 13
+2024-07-28 22:38:07,321 INFO    SenderThread:17792 [sender.py:transition_state():614] send defer: 14
+2024-07-28 22:38:07,322 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: defer
+2024-07-28 22:38:07,322 DEBUG   SenderThread:17792 [sender.py:send():379] send: final
+2024-07-28 22:38:07,322 INFO    HandlerThread:17792 [handler.py:handle_request_defer():184] handle defer: 14
+2024-07-28 22:38:07,322 DEBUG   SenderThread:17792 [sender.py:send():379] send: footer
+2024-07-28 22:38:07,322 DEBUG   SenderThread:17792 [sender.py:send_request():406] send_request: defer
+2024-07-28 22:38:07,322 INFO    SenderThread:17792 [sender.py:send_request_defer():610] handle sender defer: 14
+2024-07-28 22:38:07,323 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: poll_exit
+2024-07-28 22:38:07,324 DEBUG   SenderThread:17792 [sender.py:send_request():406] send_request: poll_exit
+2024-07-28 22:38:07,325 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-28 22:38:07,325 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: get_summary
+2024-07-28 22:38:07,326 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: sampled_history
+2024-07-28 22:38:07,327 DEBUG   HandlerThread:17792 [handler.py:handle_request():158] handle_request: shutdown
+2024-07-28 22:38:07,327 INFO    HandlerThread:17792 [handler.py:finish():882] shutting down handler
+2024-07-28 22:38:08,329 INFO    SenderThread:17792 [sender.py:finish():1608] shutting down sender
+2024-07-28 22:38:08,329 INFO    WriterThread:17792 [datastore.py:close():296] close: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240728_222819-zv9xrbb0\run-zv9xrbb0.wandb
+2024-07-28 22:38:08,329 INFO    SenderThread:17792 [file_pusher.py:finish():169] shutting down file pusher
+2024-07-28 22:38:08,330 INFO    SenderThread:17792 [file_pusher.py:join():175] waiting for file pusher

@@ -1,0 +1,193 @@
+2024-07-26 22:50:14,558 INFO    StreamThr :49580 [internal.py:wandb_internal():85] W&B internal server running at pid: 49580, started at: 2024-07-26 22:50:14.558987
+2024-07-26 22:50:14,574 DEBUG   HandlerThread:49580 [handler.py:handle_request():158] handle_request: status
+2024-07-26 22:50:14,590 INFO    WriterThread:49580 [datastore.py:open_for_write():87] open: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240726_225014-einiukfp\run-einiukfp.wandb
+2024-07-26 22:50:14,590 DEBUG   SenderThread:49580 [sender.py:send():379] send: header
+2024-07-26 22:50:14,668 DEBUG   SenderThread:49580 [sender.py:send():379] send: run
+2024-07-26 22:50:15,051 INFO    SenderThread:49580 [dir_watcher.py:__init__():211] watching files in: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240726_225014-einiukfp\files
+2024-07-26 22:50:15,051 INFO    SenderThread:49580 [sender.py:_start_run_threads():1188] run started: einiukfp with start time 1722027014.558987
+2024-07-26 22:50:15,067 DEBUG   HandlerThread:49580 [handler.py:handle_request():158] handle_request: check_version
+2024-07-26 22:50:15,067 DEBUG   SenderThread:49580 [sender.py:send_request():406] send_request: check_version
+2024-07-26 22:50:15,177 DEBUG   HandlerThread:49580 [handler.py:handle_request():158] handle_request: run_start
+2024-07-26 22:50:15,191 DEBUG   HandlerThread:49580 [system_info.py:__init__():26] System info init
+2024-07-26 22:50:15,191 DEBUG   HandlerThread:49580 [system_info.py:__init__():41] System info init done
+2024-07-26 22:50:15,191 INFO    HandlerThread:49580 [system_monitor.py:start():194] Starting system monitor
+2024-07-26 22:50:15,191 INFO    SystemMonitor:49580 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-07-26 22:50:15,191 INFO    HandlerThread:49580 [system_monitor.py:probe():214] Collecting system info
+2024-07-26 22:50:15,198 INFO    SystemMonitor:49580 [interfaces.py:start():188] Started cpu monitoring
+2024-07-26 22:50:15,199 DEBUG   HandlerThread:49580 [system_info.py:probe():152] Probing system
+2024-07-26 22:50:15,199 INFO    SystemMonitor:49580 [interfaces.py:start():188] Started disk monitoring
+2024-07-26 22:50:15,200 INFO    SystemMonitor:49580 [interfaces.py:start():188] Started memory monitoring
+2024-07-26 22:50:15,213 INFO    SystemMonitor:49580 [interfaces.py:start():188] Started network monitoring
+2024-07-26 22:50:15,214 DEBUG   HandlerThread:49580 [system_info.py:_probe_git():137] Probing git
+2024-07-26 22:50:15,373 DEBUG   HandlerThread:49580 [system_info.py:_probe_git():145] Probing git done
+2024-07-26 22:50:15,374 DEBUG   HandlerThread:49580 [system_info.py:probe():200] Probing system done
+2024-07-26 22:50:15,374 DEBUG   HandlerThread:49580 [system_monitor.py:probe():223] {'os': 'Windows-10-10.0.22621-SP0', 'python': '3.11.0', 'heartbeatAt': '2024-07-26T20:50:15.199524', 'startedAt': '2024-07-26T20:50:14.546469', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': 'Gate_qbm/tests/wandb1.ipynb', 'codePathLocal': None, 'root': 'C:/Users/ge84gac/Gate_qbm', 'git': {'remote': 'https://github.com/shivang-arora/Gate_qbm.git', 'commit': '4fe7018e522172637fa9f39320f6b38565185463'}, 'email': 'shivang.arora@tum.de', 'host': 'TUPHEQN-LPT-05', 'username': 'ge84gac', 'executable': 'C:\\Users\\ge84gac\\.conda\\envs\\qbmqsp\\python.exe', 'cpu_count': 8, 'cpu_count_logical': 16, 'cpu_freq': {'current': 2000.0, 'min': 0.0, 'max': 2000.0}, 'cpu_freq_per_core': [{'current': 2000.0, 'min': 0.0, 'max': 2000.0}], 'disk': {'/': {'total': 476.02050399780273, 'used': 194.01425552368164}}, 'memory': {'total': 15.313541412353516}}
+2024-07-26 22:50:15,374 INFO    HandlerThread:49580 [system_monitor.py:probe():224] Finished collecting system info
+2024-07-26 22:50:15,374 INFO    HandlerThread:49580 [system_monitor.py:probe():227] Publishing system info
+2024-07-26 22:50:15,374 DEBUG   HandlerThread:49580 [system_info.py:_save_conda():209] Saving list of conda packages installed into the current environment
+2024-07-26 22:50:16,057 INFO    Thread-16 :49580 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240726_225014-einiukfp\files\conda-environment.yaml
+2024-07-26 22:50:20,072 INFO    Thread-16 :49580 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240726_225014-einiukfp\files\conda-environment.yaml
+2024-07-26 22:50:20,185 DEBUG   HandlerThread:49580 [system_info.py:_save_conda():224] Saving conda packages done
+2024-07-26 22:50:20,191 INFO    HandlerThread:49580 [system_monitor.py:probe():229] Finished publishing system info
+2024-07-26 22:50:20,195 DEBUG   SenderThread:49580 [sender.py:send():379] send: files
+2024-07-26 22:50:20,195 INFO    SenderThread:49580 [sender.py:_save_file():1454] saving file wandb-metadata.json with policy now
+2024-07-26 22:50:20,196 DEBUG   HandlerThread:49580 [handler.py:handle_request():158] handle_request: status_report
+2024-07-26 22:50:20,398 DEBUG   HandlerThread:49580 [handler.py:handle_request():158] handle_request: python_packages
+2024-07-26 22:50:20,398 DEBUG   SenderThread:49580 [sender.py:send_request():406] send_request: python_packages
+2024-07-26 22:50:20,398 DEBUG   HandlerThread:49580 [handler.py:handle_request():158] handle_request: stop_status
+2024-07-26 22:50:20,408 DEBUG   HandlerThread:49580 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-26 22:50:20,413 DEBUG   SenderThread:49580 [sender.py:send_request():406] send_request: stop_status
+2024-07-26 22:50:20,661 DEBUG   SenderThread:49580 [sender.py:send():379] send: telemetry
+2024-07-26 22:50:20,661 DEBUG   SenderThread:49580 [sender.py:send():379] send: config
+2024-07-26 22:50:20,817 INFO    wandb-upload_0:49580 [upload_job.py:push():130] Uploaded file C:\Users\ge84gac\AppData\Local\Temp\tmpuma3o_prwandb\l9xxmm02-wandb-metadata.json
+2024-07-26 22:50:21,075 INFO    Thread-16 :49580 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240726_225014-einiukfp\files\wandb-metadata.json
+2024-07-26 22:50:21,076 INFO    Thread-16 :49580 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240726_225014-einiukfp\files\output.log
+2024-07-26 22:50:21,076 INFO    Thread-16 :49580 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240726_225014-einiukfp\files\requirements.txt
+2024-07-26 22:50:21,423 DEBUG   HandlerThread:49580 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-26 22:50:22,428 DEBUG   HandlerThread:49580 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-26 22:50:23,088 INFO    Thread-16 :49580 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240726_225014-einiukfp\files\output.log
+2024-07-26 22:50:23,432 DEBUG   HandlerThread:49580 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-26 22:50:24,437 DEBUG   HandlerThread:49580 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-26 22:50:25,412 DEBUG   HandlerThread:49580 [handler.py:handle_request():158] handle_request: status_report
+2024-07-26 22:50:25,443 DEBUG   HandlerThread:49580 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-26 22:50:26,451 DEBUG   HandlerThread:49580 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-26 22:50:27,462 DEBUG   HandlerThread:49580 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-26 22:50:28,466 DEBUG   HandlerThread:49580 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-26 22:50:29,135 INFO    Thread-16 :49580 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240726_225014-einiukfp\files\output.log
+2024-07-26 22:50:29,467 DEBUG   HandlerThread:49580 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-26 22:50:30,422 DEBUG   HandlerThread:49580 [handler.py:handle_request():158] handle_request: status_report
+2024-07-26 22:50:30,468 DEBUG   HandlerThread:49580 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-26 22:50:31,465 DEBUG   SenderThread:49580 [sender.py:send():379] send: telemetry
+2024-07-26 22:50:31,467 DEBUG   HandlerThread:49580 [handler.py:handle_request():158] handle_request: server_info
+2024-07-26 22:50:31,467 DEBUG   SenderThread:49580 [sender.py:send_request():406] send_request: server_info
+2024-07-26 22:50:31,615 DEBUG   SenderThread:49580 [sender.py:send():379] send: exit
+2024-07-26 22:50:31,616 INFO    SenderThread:49580 [sender.py:send_exit():586] handling exit code: 1
+2024-07-26 22:50:31,616 INFO    SenderThread:49580 [sender.py:send_exit():588] handling runtime: 16
+2024-07-26 22:50:31,619 INFO    SenderThread:49580 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-07-26 22:50:31,620 INFO    SenderThread:49580 [sender.py:send_exit():594] send defer
+2024-07-26 22:50:31,620 DEBUG   HandlerThread:49580 [handler.py:handle_request():158] handle_request: defer
+2024-07-26 22:50:31,621 INFO    HandlerThread:49580 [handler.py:handle_request_defer():184] handle defer: 0
+2024-07-26 22:50:31,621 DEBUG   SenderThread:49580 [sender.py:send_request():406] send_request: defer
+2024-07-26 22:50:31,621 INFO    SenderThread:49580 [sender.py:send_request_defer():610] handle sender defer: 0
+2024-07-26 22:50:31,621 INFO    SenderThread:49580 [sender.py:transition_state():614] send defer: 1
+2024-07-26 22:50:31,621 DEBUG   HandlerThread:49580 [handler.py:handle_request():158] handle_request: defer
+2024-07-26 22:50:31,622 INFO    HandlerThread:49580 [handler.py:handle_request_defer():184] handle defer: 1
+2024-07-26 22:50:31,622 DEBUG   SenderThread:49580 [sender.py:send_request():406] send_request: defer
+2024-07-26 22:50:31,622 INFO    SenderThread:49580 [sender.py:send_request_defer():610] handle sender defer: 1
+2024-07-26 22:50:31,622 INFO    SenderThread:49580 [sender.py:transition_state():614] send defer: 2
+2024-07-26 22:50:31,622 DEBUG   HandlerThread:49580 [handler.py:handle_request():158] handle_request: defer
+2024-07-26 22:50:31,623 INFO    HandlerThread:49580 [handler.py:handle_request_defer():184] handle defer: 2
+2024-07-26 22:50:31,623 INFO    HandlerThread:49580 [system_monitor.py:finish():203] Stopping system monitor
+2024-07-26 22:50:31,623 DEBUG   SystemMonitor:49580 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-07-26 22:50:31,624 DEBUG   SystemMonitor:49580 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-07-26 22:50:31,624 INFO    HandlerThread:49580 [interfaces.py:finish():200] Joined cpu monitor
+2024-07-26 22:50:31,624 DEBUG   SystemMonitor:49580 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-07-26 22:50:31,624 INFO    HandlerThread:49580 [interfaces.py:finish():200] Joined disk monitor
+2024-07-26 22:50:31,625 INFO    HandlerThread:49580 [interfaces.py:finish():200] Joined memory monitor
+2024-07-26 22:50:31,626 INFO    HandlerThread:49580 [interfaces.py:finish():200] Joined network monitor
+2024-07-26 22:50:31,626 DEBUG   SenderThread:49580 [sender.py:send_request():406] send_request: defer
+2024-07-26 22:50:31,626 INFO    SenderThread:49580 [sender.py:send_request_defer():610] handle sender defer: 2
+2024-07-26 22:50:31,626 INFO    SenderThread:49580 [sender.py:transition_state():614] send defer: 3
+2024-07-26 22:50:31,626 DEBUG   SenderThread:49580 [sender.py:send():379] send: stats
+2024-07-26 22:50:31,627 DEBUG   HandlerThread:49580 [handler.py:handle_request():158] handle_request: defer
+2024-07-26 22:50:31,628 INFO    HandlerThread:49580 [handler.py:handle_request_defer():184] handle defer: 3
+2024-07-26 22:50:31,628 DEBUG   SenderThread:49580 [sender.py:send_request():406] send_request: defer
+2024-07-26 22:50:31,628 INFO    SenderThread:49580 [sender.py:send_request_defer():610] handle sender defer: 3
+2024-07-26 22:50:31,628 INFO    SenderThread:49580 [sender.py:transition_state():614] send defer: 4
+2024-07-26 22:50:31,628 DEBUG   HandlerThread:49580 [handler.py:handle_request():158] handle_request: defer
+2024-07-26 22:50:31,628 INFO    HandlerThread:49580 [handler.py:handle_request_defer():184] handle defer: 4
+2024-07-26 22:50:31,629 DEBUG   SenderThread:49580 [sender.py:send_request():406] send_request: defer
+2024-07-26 22:50:31,629 INFO    SenderThread:49580 [sender.py:send_request_defer():610] handle sender defer: 4
+2024-07-26 22:50:31,629 INFO    SenderThread:49580 [sender.py:transition_state():614] send defer: 5
+2024-07-26 22:50:31,629 DEBUG   HandlerThread:49580 [handler.py:handle_request():158] handle_request: defer
+2024-07-26 22:50:31,629 INFO    HandlerThread:49580 [handler.py:handle_request_defer():184] handle defer: 5
+2024-07-26 22:50:31,630 DEBUG   SenderThread:49580 [sender.py:send():379] send: summary
+2024-07-26 22:50:31,631 INFO    SenderThread:49580 [sender.py:_save_file():1454] saving file wandb-summary.json with policy end
+2024-07-26 22:50:31,632 DEBUG   SenderThread:49580 [sender.py:send_request():406] send_request: defer
+2024-07-26 22:50:31,632 INFO    SenderThread:49580 [sender.py:send_request_defer():610] handle sender defer: 5
+2024-07-26 22:50:31,632 INFO    SenderThread:49580 [sender.py:transition_state():614] send defer: 6
+2024-07-26 22:50:31,632 DEBUG   HandlerThread:49580 [handler.py:handle_request():158] handle_request: defer
+2024-07-26 22:50:31,632 INFO    HandlerThread:49580 [handler.py:handle_request_defer():184] handle defer: 6
+2024-07-26 22:50:31,632 DEBUG   SenderThread:49580 [sender.py:send_request():406] send_request: defer
+2024-07-26 22:50:31,633 INFO    SenderThread:49580 [sender.py:send_request_defer():610] handle sender defer: 6
+2024-07-26 22:50:31,638 DEBUG   HandlerThread:49580 [handler.py:handle_request():158] handle_request: status_report
+2024-07-26 22:50:31,798 INFO    SenderThread:49580 [sender.py:transition_state():614] send defer: 7
+2024-07-26 22:50:31,802 DEBUG   HandlerThread:49580 [handler.py:handle_request():158] handle_request: defer
+2024-07-26 22:50:31,802 INFO    HandlerThread:49580 [handler.py:handle_request_defer():184] handle defer: 7
+2024-07-26 22:50:31,802 DEBUG   SenderThread:49580 [sender.py:send_request():406] send_request: defer
+2024-07-26 22:50:31,802 INFO    SenderThread:49580 [sender.py:send_request_defer():610] handle sender defer: 7
+2024-07-26 22:50:32,160 INFO    Thread-16 :49580 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240726_225014-einiukfp\files\config.yaml
+2024-07-26 22:50:32,161 INFO    Thread-16 :49580 [dir_watcher.py:_on_file_created():271] file/dir created: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240726_225014-einiukfp\files\wandb-summary.json
+2024-07-26 22:50:32,630 DEBUG   HandlerThread:49580 [handler.py:handle_request():158] handle_request: poll_exit
+2024-07-26 22:50:33,165 INFO    Thread-16 :49580 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240726_225014-einiukfp\files\output.log
+2024-07-26 22:50:33,430 INFO    SenderThread:49580 [sender.py:transition_state():614] send defer: 8
+2024-07-26 22:50:33,430 DEBUG   SenderThread:49580 [sender.py:send_request():406] send_request: poll_exit
+2024-07-26 22:50:33,431 DEBUG   HandlerThread:49580 [handler.py:handle_request():158] handle_request: defer
+2024-07-26 22:50:33,431 INFO    HandlerThread:49580 [handler.py:handle_request_defer():184] handle defer: 8
+2024-07-26 22:50:33,431 DEBUG   SenderThread:49580 [sender.py:send_request():406] send_request: defer
+2024-07-26 22:50:33,431 INFO    SenderThread:49580 [sender.py:send_request_defer():610] handle sender defer: 8
+2024-07-26 22:50:33,431 INFO    SenderThread:49580 [sender.py:transition_state():614] send defer: 9
+2024-07-26 22:50:33,432 DEBUG   HandlerThread:49580 [handler.py:handle_request():158] handle_request: defer
+2024-07-26 22:50:33,432 INFO    HandlerThread:49580 [handler.py:handle_request_defer():184] handle defer: 9
+2024-07-26 22:50:33,432 DEBUG   SenderThread:49580 [sender.py:send_request():406] send_request: defer
+2024-07-26 22:50:33,432 INFO    SenderThread:49580 [sender.py:send_request_defer():610] handle sender defer: 9
+2024-07-26 22:50:33,432 INFO    SenderThread:49580 [dir_watcher.py:finish():358] shutting down directory watcher
+2024-07-26 22:50:33,640 DEBUG   HandlerThread:49580 [handler.py:handle_request():158] handle_request: poll_exit
+2024-07-26 22:50:34,179 INFO    SenderThread:49580 [dir_watcher.py:_on_file_modified():288] file/dir modified: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240726_225014-einiukfp\files\output.log
+2024-07-26 22:50:34,180 INFO    SenderThread:49580 [dir_watcher.py:finish():388] scan: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240726_225014-einiukfp\files
+2024-07-26 22:50:34,180 INFO    SenderThread:49580 [dir_watcher.py:finish():402] scan save: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240726_225014-einiukfp\files\conda-environment.yaml conda-environment.yaml
+2024-07-26 22:50:34,180 INFO    SenderThread:49580 [dir_watcher.py:finish():402] scan save: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240726_225014-einiukfp\files\config.yaml config.yaml
+2024-07-26 22:50:34,183 INFO    SenderThread:49580 [dir_watcher.py:finish():402] scan save: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240726_225014-einiukfp\files\output.log output.log
+2024-07-26 22:50:34,185 INFO    SenderThread:49580 [dir_watcher.py:finish():402] scan save: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240726_225014-einiukfp\files\requirements.txt requirements.txt
+2024-07-26 22:50:34,189 INFO    SenderThread:49580 [dir_watcher.py:finish():402] scan save: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240726_225014-einiukfp\files\wandb-metadata.json wandb-metadata.json
+2024-07-26 22:50:34,190 INFO    SenderThread:49580 [dir_watcher.py:finish():402] scan save: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240726_225014-einiukfp\files\wandb-summary.json wandb-summary.json
+2024-07-26 22:50:34,193 INFO    SenderThread:49580 [sender.py:transition_state():614] send defer: 10
+2024-07-26 22:50:34,193 DEBUG   SenderThread:49580 [sender.py:send_request():406] send_request: poll_exit
+2024-07-26 22:50:34,193 DEBUG   HandlerThread:49580 [handler.py:handle_request():158] handle_request: defer
+2024-07-26 22:50:34,195 INFO    HandlerThread:49580 [handler.py:handle_request_defer():184] handle defer: 10
+2024-07-26 22:50:34,196 DEBUG   SenderThread:49580 [sender.py:send_request():406] send_request: defer
+2024-07-26 22:50:34,196 INFO    SenderThread:49580 [sender.py:send_request_defer():610] handle sender defer: 10
+2024-07-26 22:50:34,196 INFO    SenderThread:49580 [file_pusher.py:finish():169] shutting down file pusher
+2024-07-26 22:50:34,648 DEBUG   HandlerThread:49580 [handler.py:handle_request():158] handle_request: poll_exit
+2024-07-26 22:50:34,649 DEBUG   SenderThread:49580 [sender.py:send_request():406] send_request: poll_exit
+2024-07-26 22:50:34,681 INFO    wandb-upload_0:49580 [upload_job.py:push():130] Uploaded file C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240726_225014-einiukfp\files\conda-environment.yaml
+2024-07-26 22:50:34,714 INFO    wandb-upload_1:49580 [upload_job.py:push():130] Uploaded file C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240726_225014-einiukfp\files\config.yaml
+2024-07-26 22:50:34,728 INFO    wandb-upload_2:49580 [upload_job.py:push():130] Uploaded file C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240726_225014-einiukfp\files\output.log
+2024-07-26 22:50:34,739 INFO    wandb-upload_4:49580 [upload_job.py:push():130] Uploaded file C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240726_225014-einiukfp\files\wandb-summary.json
+2024-07-26 22:50:34,782 INFO    wandb-upload_3:49580 [upload_job.py:push():130] Uploaded file C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240726_225014-einiukfp\files\requirements.txt
+2024-07-26 22:50:34,994 INFO    Thread-15 (_thread_body):49580 [sender.py:transition_state():614] send defer: 11
+2024-07-26 22:50:34,995 DEBUG   HandlerThread:49580 [handler.py:handle_request():158] handle_request: defer
+2024-07-26 22:50:34,995 INFO    HandlerThread:49580 [handler.py:handle_request_defer():184] handle defer: 11
+2024-07-26 22:50:34,996 DEBUG   SenderThread:49580 [sender.py:send_request():406] send_request: defer
+2024-07-26 22:50:34,996 INFO    SenderThread:49580 [sender.py:send_request_defer():610] handle sender defer: 11
+2024-07-26 22:50:34,996 INFO    SenderThread:49580 [file_pusher.py:join():175] waiting for file pusher
+2024-07-26 22:50:34,996 INFO    SenderThread:49580 [sender.py:transition_state():614] send defer: 12
+2024-07-26 22:50:34,996 DEBUG   HandlerThread:49580 [handler.py:handle_request():158] handle_request: defer
+2024-07-26 22:50:34,996 INFO    HandlerThread:49580 [handler.py:handle_request_defer():184] handle defer: 12
+2024-07-26 22:50:34,997 DEBUG   SenderThread:49580 [sender.py:send_request():406] send_request: defer
+2024-07-26 22:50:34,997 INFO    SenderThread:49580 [sender.py:send_request_defer():610] handle sender defer: 12
+2024-07-26 22:50:34,997 INFO    SenderThread:49580 [file_stream.py:finish():601] file stream finish called
+2024-07-26 22:50:35,205 INFO    SenderThread:49580 [file_stream.py:finish():605] file stream finish is done
+2024-07-26 22:50:35,205 INFO    SenderThread:49580 [sender.py:transition_state():614] send defer: 13
+2024-07-26 22:50:35,205 DEBUG   HandlerThread:49580 [handler.py:handle_request():158] handle_request: defer
+2024-07-26 22:50:35,205 INFO    HandlerThread:49580 [handler.py:handle_request_defer():184] handle defer: 13
+2024-07-26 22:50:35,206 DEBUG   SenderThread:49580 [sender.py:send_request():406] send_request: defer
+2024-07-26 22:50:35,206 INFO    SenderThread:49580 [sender.py:send_request_defer():610] handle sender defer: 13
+2024-07-26 22:50:35,206 INFO    SenderThread:49580 [sender.py:transition_state():614] send defer: 14
+2024-07-26 22:50:35,206 DEBUG   HandlerThread:49580 [handler.py:handle_request():158] handle_request: defer
+2024-07-26 22:50:35,206 INFO    HandlerThread:49580 [handler.py:handle_request_defer():184] handle defer: 14
+2024-07-26 22:50:35,206 DEBUG   SenderThread:49580 [sender.py:send():379] send: final
+2024-07-26 22:50:35,207 DEBUG   SenderThread:49580 [sender.py:send():379] send: footer
+2024-07-26 22:50:35,207 DEBUG   SenderThread:49580 [sender.py:send_request():406] send_request: defer
+2024-07-26 22:50:35,207 INFO    SenderThread:49580 [sender.py:send_request_defer():610] handle sender defer: 14
+2024-07-26 22:50:35,207 DEBUG   HandlerThread:49580 [handler.py:handle_request():158] handle_request: poll_exit
+2024-07-26 22:50:35,208 DEBUG   SenderThread:49580 [sender.py:send_request():406] send_request: poll_exit
+2024-07-26 22:50:35,209 DEBUG   HandlerThread:49580 [handler.py:handle_request():158] handle_request: internal_messages
+2024-07-26 22:50:35,210 DEBUG   HandlerThread:49580 [handler.py:handle_request():158] handle_request: get_summary
+2024-07-26 22:50:35,210 DEBUG   HandlerThread:49580 [handler.py:handle_request():158] handle_request: sampled_history
+2024-07-26 22:50:35,210 DEBUG   HandlerThread:49580 [handler.py:handle_request():158] handle_request: shutdown
+2024-07-26 22:50:35,210 INFO    HandlerThread:49580 [handler.py:finish():882] shutting down handler
+2024-07-26 22:50:36,210 INFO    SenderThread:49580 [sender.py:finish():1608] shutting down sender
+2024-07-26 22:50:36,210 INFO    WriterThread:49580 [datastore.py:close():296] close: C:\Users\ge84gac\Gate_qbm\tests\wandb\run-20240726_225014-einiukfp\run-einiukfp.wandb
+2024-07-26 22:50:36,210 INFO    SenderThread:49580 [file_pusher.py:finish():169] shutting down file pusher
+2024-07-26 22:50:36,210 INFO    SenderThread:49580 [file_pusher.py:join():175] waiting for file pusher

@@ -1,0 +1,1 @@
+{"accuracy": 0.9582463465553236, "precision": 0.13714285714285712, "recall": 0.75, "f1_score": 0.23172413793103447, "true_negatives": 456.0, "false_positives": 19.0, "false_negatives": 1.0, "true_positives": 3.0, "_timestamp": 1722136361.8269153, "_runtime": 2866.2573142051697, "_step": 0, "_wandb": {"runtime": 2865}}
